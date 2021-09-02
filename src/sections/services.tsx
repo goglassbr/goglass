@@ -342,6 +342,10 @@ const Products = () => {
             prevEl: '.prev',
           }}
           loop={true}
+          lazy={{
+            loadPrevNext: true,
+            loadPrevNextAmount: (width < 770 ? 1 : (width < 1200 ? 2 : 3)),
+          }}
           spaceBetween={0}
           slidesPerView={(width < 770 ? 1 : (width < 1200 ? 2 : 3))}
           onSlideChange={() => console.log('slide change')}
