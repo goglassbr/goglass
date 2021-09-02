@@ -334,9 +334,9 @@ const Products = () => {
             <SwiperSlide key={idx} className="slide">
               <Item title={p.name}>
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-                  {width <= 700 && <Circle style={{ width: 40, height: 40, borderRadius: 40}} onClick={slideBack}><MdChevronLeft size="20px" style={{ padding: '0 10px'}}/></Circle>}
+                  {width <= 700 && <Circle className="prev" style={{ width: 40, height: 40, borderRadius: 40}} onClick={slideBack}><MdChevronLeft size="20px" style={{ padding: '0 10px'}}/></Circle>}
                   <Img src={p.img} onClick={() => (window.location.href = p.link)}/>
-                  {width <= 700 && <Circle style={{ width: 40, height: 40, borderRadius: 40}} onClick={slideNext}><MdChevronRight size="20px" style={{ padding: '0 10px'}}/></Circle>}
+                  {width <= 700 && <Circle className="next" style={{ width: 40, height: 40, borderRadius: 40}} onClick={slideNext}><MdChevronRight size="20px" style={{ padding: '0 10px'}}/></Circle>}
                 </div>
                 <Button onClick={() => (window.location.href = p.link)}>
                   <FaWhatsapp size="22px" color="#fff" style={{ margin: '0 8px 4px 0' }}/>
