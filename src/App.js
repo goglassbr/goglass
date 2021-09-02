@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
 const GoglassPage = () => {
   
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', zIndex: -1 }}>
       <GlobalStyle/>
       <Header/>
       <Hero/>

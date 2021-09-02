@@ -119,14 +119,14 @@ const PhonesWrapper = styled.div`
   }
 
   @media (max-width: 570px) {
-    width: calc(100vw - 30px);
+    width: 100vw;
 
     & .slide {
-      width: calc(100vw - 30px);
+      width: calc(100vw - 150px);
     }
 
     & .swiper-container {
-      width: calc(100vw - 30px);
+      width: calc(100vw - 150px);
     }
   }
 `;
@@ -158,6 +158,7 @@ const Img = styled.img`
 
   @media (max-width: 570px) {
     width: 56vw;
+    margin: auto;
   }
 `;
 
@@ -217,11 +218,25 @@ const Circle = styled.div`
   );
   color: #fff;
   cursor: pointer;
+`;
 
-
-  @media (max-width: 700px) {
-    font-size: 23px;
-  }
+const MinorCircle = styled.div`
+  position: relative;
+  display: flex;
+  top: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 0 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: linear-gradient(
+    to right,
+    rgba(20, 170, 148, 1) 0%,
+    rgba(3, 118, 135, 1) 100%
+  );
+  color: #fff;
+  cursor: pointer;
 `;
 
 const Button = styled.a`
@@ -319,24 +334,24 @@ const Products = () => {
       <PhonesWrapper
         >
         {width > 700 && <Circle className="prev"><MdChevronLeft size="44px" style={{ padding: '0 8px'}}/></Circle>}
+        {width <= 700 && <MinorCircle className="prev" style={{ margin: '0 0 0 20px' }}><MdChevronLeft size="20px"/></MinorCircle>}
         <Swiper
           className="swipermain"
           navigation={{
             nextEl: '.next',
             prevEl: '.prev',
           }}
+          loop={true}
           spaceBetween={0}
           slidesPerView={(width < 770 ? 1 : (width < 1200 ? 2 : 3))}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
           >
-          {[...products].filter((i: any) => i.brand == brand).map((p, idx) => (
+          {products.slice(0).reverse().filter((i: any) => i.brand == brand).map((p, idx) => (
             <SwiperSlide key={idx} className="slide">
               <Item title={p.name}>
-                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-                  {width <= 700 && <Circle className="prev" style={{ width: 40, height: 40, borderRadius: 40}} onClick={slideBack}><MdChevronLeft size="20px" style={{ padding: '0 10px'}}/></Circle>}
+                <div style={{ display: 'flex', alignItems: 'center'}}>
                   <Img src={p.img} onClick={() => (window.location.href = p.link)}/>
-                  {width <= 700 && <Circle className="next" style={{ width: 40, height: 40, borderRadius: 40}} onClick={slideNext}><MdChevronRight size="20px" style={{ padding: '0 10px'}}/></Circle>}
                 </div>
                 <Button onClick={() => (window.location.href = p.link)}>
                   <FaWhatsapp size="22px" color="#fff" style={{ margin: '0 8px 4px 0' }}/>
@@ -347,6 +362,7 @@ const Products = () => {
           ))}
         </Swiper>
         {width > 700 && <Circle  className="next"><MdChevronRight size="44px" style={{ padding: '0 8px'}}/></Circle>}
+        {width <= 700 && <MinorCircle  className="next"><MdChevronRight size="20px"/></MinorCircle>}
       </PhonesWrapper>
     </Wrapper>
   );
