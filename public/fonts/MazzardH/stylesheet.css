@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'MazzardH';
+    src: url('/fonts/MazzardH/MazzardH-ExtraLight.eot');
+    src: url('/fonts/MazzardH/MazzardH-ExtraLight.woff') format('woff'),
+        url('/fonts/MazzardH/MazzardH-ExtraLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MazzardH';
+    src: url('/fonts/MazzardH/MazzardH-Bold.eot');
+    src: url('/fonts/MazzardH/MazzardH-Bold.woff') format('woff'),
+        url('/fonts/MazzardH/MazzardH-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
