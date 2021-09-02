@@ -352,7 +352,7 @@ const Operation = () => {
           </CardText>
         </CardWrapper>
       </StepsWrapper>
-      <Button onClick={() => (window.location.href = 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20falar%20com%20o%20consultor')}>
+      <Button id="wppurl" onClick={() => (window.location.href = 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20falar%20com%20o%20consultor')}>
         <FaWhatsapp size="22px" color="#fff" style={{ margin: '0 8px 4px 0' }} />
         FALE COM CONSULTOR
       </Button>

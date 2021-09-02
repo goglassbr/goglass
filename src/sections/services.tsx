@@ -357,7 +357,7 @@ const Products = () => {
                 <div style={{ display: 'flex', alignItems: 'center'}}>
                   <Img src={p.img} onClick={() => (window.location.href = p.link)}/>
                 </div>
-                <Button onClick={() => (window.location.href = p.link)}>
+                <Button id="wppurl" onClick={() => (window.location.href = p.link)}>
                   <FaWhatsapp size="22px" color="#fff" style={{ margin: '0 8px 4px 0' }}/>
                   FALE COM CONSULTOR
                 </Button>

@@ -270,7 +270,7 @@ const Header = () => {
             (71) 9716-6900
           </NumberWrapper>
         </SocialWrapper>
-        <Button onClick={() => (window.location.href = "https://api.whatsapp.com/send?phone=557197166900")}>Faça já seu orçamento!</Button>
+        <Button id="wppurl" onClick={() => (window.location.href = "https://api.whatsapp.com/send?phone=557197166900")}>Faça já seu orçamento!</Button>
       </HeaderWrapper>
       <Row style={scroll > 50 ? { paddingTop: 0, paddingBottom: 0 } : {}}>
         <GoglassLogo src={goglassLogo} style={scroll > 50 ? { width: 120 } : {}}/>
