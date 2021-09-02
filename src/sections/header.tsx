@@ -89,11 +89,6 @@ const NumberWrapper = styled.div`
   font-size: 18px;
   color: #fff;
   font-weight: 900;
-  cursor: pointer;
-
-  :hover {
-    text-decoration: none;
-  }
 
   @media (max-width: 700px) {
     display: none;
