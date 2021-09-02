@@ -82,13 +82,12 @@ const Logos = styled.a`
   }
 `;
 
-const NumberWrapper = styled.a`
+const NumberWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 18px;
   color: #fff;
-  text-decoration: underline;
   font-weight: 900;
   cursor: pointer;
 
@@ -271,11 +270,7 @@ const Header = () => {
               <FaYoutube size="20px" aria-hidden="true" />
             </Logos>
           </LogoWrapper>
-          <NumberWrapper
-            href="https://api.whatsapp.com/send?phone=7197166900"
-            target="_blank"
-            title="Entre em contato pelo WhatsApp"
-          >
+          <NumberWrapper>
             <FaWhatsapp size="20px" color="#fff" style={{ marginRight: '3px' }} />
             (71) 9716-6900
           </NumberWrapper>

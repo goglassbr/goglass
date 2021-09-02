@@ -38,8 +38,12 @@ const GoglassPage = () => {
 	      <meta charset="utf-8"/>
         <meta name="title" content="Goglass - Assistência Técnica Especialista em Telas de Iphone e Samsung"/>
 	      <meta name="description" content="Assistencia Tecnica Iphone e Samsung Especialista em Troca de Tela de Celular! Melhor Preço, Delivery Grátis, até 6X Sem Juros e Aparelho Reserva só na Goglass."/>
-        <title>GoGlass</title>
+        <title>Goglass Assistência Técnica de Iphone e Samsung</title>
         <meta name="facebook-domain-verification" content="8pd8orzviehddncqugfrt9q0xgr3ql"/>
+        <meta property="og:type" content="website"/>
+	      <meta property="og:title" content="Goglass Assistência Técnica de Iphone e Samsung"/>
+        <meta property="og:site_name" content="GoGlass"/>
+
 
         {/* Google Tag Manager */}
         <script

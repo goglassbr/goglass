@@ -137,7 +137,7 @@ const Hero = () => {
         <h4>
           Economize até 70% na troca do seu vidro sem precisar sair de casa
         </h4>
-        <Button>QUERO ECONOMIZAR!</Button>
+        <Button href="#services">QUERO ECONOMIZAR!</Button>
       </BannerText>
     </Wrapper>
   );
