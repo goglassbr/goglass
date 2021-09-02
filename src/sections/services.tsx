@@ -299,19 +299,19 @@ const Products = () => {
       <ButtonsWrapper>
         <BrandButton
           onClick={() => setBrand('samsung')}
-          style={brand == 'samsung' ? { background: '#646666' } : {}}
+          style={brand === 'samsung' ? { background: '#646666' } : {}}
         >
           SAMSUNG
         </BrandButton>
         <BrandButton
           onClick={() => setBrand('iphone')}
-          style={brand == 'iphone' ? { background: '#646666' } : {}}
+          style={brand === 'iphone' ? { background: '#646666' } : {}}
         >
           IPHONE
         </BrandButton>
         <BrandButton
           onClick={() => setBrand('watch')}
-          style={brand == 'watch' ? { background: '#646666' } : {}}
+          style={brand === 'watch' ? { background: '#646666' } : {}}
         >
           APPLE WATCH
         </BrandButton>
