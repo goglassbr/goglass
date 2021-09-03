@@ -281,28 +281,6 @@ const Products = () => {
 
   }, [width]);
 
-  console.log(width);
-  const slideNext = () => {
-    
-    // if (document) {
-    //   const swiper = document.querySelector(
-    //     '.swipermain.swiper-container'
-    //   ).swiper;
-  
-    //   swiper.slideNext();
-    // }
-  };
-  
-  const slideBack = () => {
-    // if (document) {
-    //   const swiper = document.querySelector(
-    //     '.swipermain.swiper-container',
-    //   ).swiper;
-  
-    //   swiper.slidePrev();
-    // }
-  };
-
   return (
     <Wrapper id="services">
       <h2>ENCONTRE SEU APARELHO</h2>

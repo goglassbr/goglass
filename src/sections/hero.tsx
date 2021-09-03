@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import banner1 from '../source/banner-1.jpg';
-import banner2 from '../source/banner-2.jpg';
-import banner3 from '../source/banner-3.jpg';
+import banner1 from '../source/banner-1.webp';
+import banner2 from '../source/banner-2.webp';
+import banner3 from '../source/banner-3.webp';
 
 const Wrapper = styled.div`
   display: flex;

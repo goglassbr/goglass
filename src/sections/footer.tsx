@@ -5,8 +5,8 @@ import {
   FaFacebookF,
   FaYoutube,
 } from 'react-icons/fa';
-import goglassLogo from '../source/goglass-logo.png';
-import criatecLogo from '../source/criatecl.png';
+import goglassLogo from '../source/goglass-logo.webp';
+import criatecLogo from '../source/criatecl.webp';
 
 const Wrapper = styled.div`
   background: #006d87;

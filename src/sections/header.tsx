@@ -8,7 +8,7 @@ import {
   FaBars,
   FaTimes
 } from 'react-icons/fa';
-import goglassLogo from '../source/goglass-logo.png';
+import goglassLogo from '../source/goglass-logo.webp';
 
 const Wrapper = styled.div`
   display: flex;

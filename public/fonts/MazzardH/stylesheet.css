@@ -5,6 +5,7 @@
         url('/fonts/MazzardH/MazzardH-ExtraLight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -14,4 +15,5 @@
         url('/fonts/MazzardH/MazzardH-Bold.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
+    font-display: swap;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaWhatsapp, FaTimes } from 'react-icons/fa';
 import styled from 'styled-components';
-import videoOperation from '../source/video-operation.png';
+import videoOperation from '../source/video-operation.webp';
 
 const Modal = styled.div`
   display: flex;
