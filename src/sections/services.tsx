@@ -322,7 +322,6 @@ const Products = () => {
           loop={true}
           lazy={{
             loadPrevNext: true,
-            loadPrevNextAmount: (width < 770 ? 1 : (width < 1200 ? 2 : 3)),
           }}
           spaceBetween={0}
           slidesPerView={(width < 770 ? 1 : (width < 1200 ? 2 : 3))}
@@ -333,7 +332,7 @@ const Products = () => {
             <SwiperSlide key={idx} className="slide">
               <Item title={p.name}>
                 <div style={{ display: 'flex', alignItems: 'center'}}>
-                  <Img src={p.img} onClick={() => (window.location.href = p.link)}/>
+                  <Img id="wppurl" src={p.img} onClick={() => (window.location.href = p.link)}/>
                 </div>
                 <Button id="wppurl" onClick={() => (window.location.href = p.link)}>
                   <FaWhatsapp size="22px" color="#fff" style={{ margin: '0 8px 4px 0' }}/>

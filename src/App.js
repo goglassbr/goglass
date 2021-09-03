@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {Suspense, lazy} from 'react';
 import Header from './sections/header';
 import Hero from './sections/hero';
 import Services from './sections/services';
-import Operation from './sections/operation';
-import Depositions from './sections/depositions';
-import Address from './sections/address';
-import FAQ from './sections/faq';
 import Footer from './sections/footer';
 import { createGlobalStyle } from 'styled-components';
 import 'swiper/swiper-bundle.css';
 
+const Operation = lazy(() => import('./sections/operation'));
+const Depositions = lazy(() => import('./sections/depositions'));
+const Address = lazy(() => import('./sections/address'));
+const FAQ = lazy(() => import('./sections/faq'));
 
 const GlobalStyle = createGlobalStyle`
 
@@ -36,10 +36,12 @@ const GoglassPage = () => {
       <Header/>
       <Hero/>
       <Services/>
-      <Operation/>
-      <Depositions/>
-      <Address/>
-      <FAQ/>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Operation/>
+        <Depositions/>
+        <Address/>
+        <FAQ/>
+      </Suspense>
       <Footer/>
     </div>
   )
