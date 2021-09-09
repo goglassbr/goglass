@@ -2,3 +2,5 @@
 base = "."
 command = "CI=false npm run build"
 publish = "./build/"
+from = "/faq"
+to = "/#faq"
