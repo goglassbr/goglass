@@ -2,5 +2,7 @@
 base = "."
 command = "CI=false npm run build"
 publish = "./build/"
+
+[[redirects]]
 from = "/faq"
 to = "/#faq"
