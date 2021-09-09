@@ -5,11 +5,11 @@ import Services from './sections/services';
 import Footer from './sections/footer';
 import { createGlobalStyle } from 'styled-components';
 import 'swiper/swiper-bundle.css';
+import FAQ from './sections/faq';
 
 const Operation = lazy(() => import('./sections/operation'));
 const Depositions = lazy(() => import('./sections/depositions'));
 const Address = lazy(() => import('./sections/address'));
-const FAQ = lazy(() => import('./sections/faq'));
 
 const GlobalStyle = createGlobalStyle`
 
