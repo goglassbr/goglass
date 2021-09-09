@@ -40,8 +40,8 @@ const GoglassPage = () => {
         <Operation/>
         <Depositions/>
         <Address/>
-        <FAQ/>
       </Suspense>
+      <FAQ/>
       <Footer/>
     </div>
   )
