@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+    @font-face {
+      font-family: "MazzardH-Bold";
+      src: url(./../../../themes/goglass/webfonts/MazzardH-Bold.eot?) format("eot"),
+      url(./../../../themes/goglass/webfonts/MazzardH-Bold.woff) format("woff"),
+      url(./../../../themes/goglass/webfonts/MazzardH-Bold.ttf) format("truetype");
+    }
+
+    @font-face {
+      font-family: "MazzardH-ExtraLight";
+      src: url(./../../../themes/goglass/webfonts/MazzardH-ExtraLight.eot?) format("eot"),
+      url(./../../../themes/goglass/webfonts/MazzardH-ExtraLight.woff) format("woff"),
+      url(./../../../themes/goglass/webfonts/MazzardH-ExtraLight.ttf) format("truetype");
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+      .popup {
+        position: fixed;
+        display: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 48vw;
+        width: 715px;
+        border-radius: 40px;
+        box-shadow: -1px 1px 10px 1px #777;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      .content-popup {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .img-popup {
+        position: absolute;
+        top: 0;
+        left: 1%;
+        width: 98%;
+      }
+      
+      .row1 {
+        background-color: #a0f9f6;
+        height: 237px;
+        width: 715px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+      }
+
+      .row2 {
+        background-color: #00f0e4;
+        height: 237px;
+        width: 715px;
+      }
+
+      .form {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .form-rule {
+        font-size: 21px;
+        text-align: center;
+        color: #09969d;
+      }
+
+      .form-title {
+        font-size: 28px;
+        text-align: center;
+        color: #09969d;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .final {
+        margin: auto;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 500px;
+      }
+
+      .cupom {
+        display: flex;
+        width: 350px;
+        height: 35px;
+        border-radius: 18px;
+        border: 2px solid #07706c;
+        box-shadow: -6px 6px 0 #07706c;
+        justify-content: center;
+        align-items: center;
+        color: #07706c;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+      }
+
+      input {
+        font-size: 25px;
+        border-radius: 20px;
+        width: 410px;
+        text-align: center;
+        padding: 4px 0;
+      }
+
+      .data {
+        border: 2px solid #09969d;
+        width: 410px;
+      }
+
+      .submit {
+        border: 2px solid #07706c;
+        background-color: #07706c;
+        width: 414px;
+        color: white;
+        cursor: pointer;
+      }
+
+      ::-webkit-input-placeholder {
+        color: #09969d;
+      }
+
+      :-moz-placeholder {
+        color: #09969d;
+      }
+
+      ::-moz-placeholder {
+        color: #09969d;
+      }
+
+      :-ms-input-placeholder {  
+        color: #09969d;
+      }
+
+      .close {
+        color: #07706c;
+        position: absolute;
+        top: 15px;
+        left: calc(50% + 315px);
+        cursor: pointer;
+      }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	  </link>
+  </head>
+  <body>
+    <div class="popup">
+      <div class="content-popup">
+        <div class="row1"></div>
+        <div class="row2"></div>
+        <div>
+          <img class="img-popup" src="./images/inicial.png" >
+        </div>
+        <i class="fas fa-times fa-2x close"></i>
+        <div class="form">
+          <p class="form-title">
+            Preencha os dados abaixo e ganhe um prêmio exclusivo ao fazer a troca de vidro
+          </p>
+          <form>
+            <input class="data" type="text" name="name" placeholder="seu nome" required><br>
+            <input class="data" type="email" name="email" placeholder="seu e-mail" required><br>
+          </form>  
+            <input class="submit" type="submit" value="girar roleta">
+            <p class="form-rule">
+              Prêmios válidos para os clientes que realizarem a troca de vidro na Goglass.
+            </p>
+        </div>
+        <div class="final">
+          <p class="form-title">
+            Ao fazer o pedido, apresente este cupom aos nossos consultores:
+          </p>
+          <div class="cupom"><h4>VEMPRAGOGLASS</h4></div>
+          <p class="form-title">
+            *O cupom será enviado para seu email
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      const popup = document.querySelector('.popup');
+      const close = document.querySelector('.close');
+      const girar = document.querySelector('.submit');
+      const imgpopup = document.querySelector('.img-popup');
+      const form = document.querySelector('.form');
+      const final = document.querySelector('.final');
+
+      const image = new Image();
+      imagesrc ='./images/premiacao.gif';
+
+      window.onload = function(){
+        setTimeout(function(){
+          popup.style.display = "block";
+        }, 1500)
+      }
+
+      close.addEventListener('click', () => {
+        popup.style.display = "none";
+      });
+
+      girar.addEventListener('click', () => {
+        imgpopup.setAttribute('src','./images/premiacao.gif');
+        form.style.display = "none";
+        setTimeout(function(){
+          final.style.display = "flex";
+        }, 3000)
+      });
+    </script>
+  </body>
+</html>
