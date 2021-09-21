@@ -7,6 +7,7 @@ import { toast } from 'react-toastify';
 import { useRealmApp } from '../../providers/realm';
 import { useMongoDB } from '../../providers/mongodb';
 import styled from 'styled-components';
+import axios from 'axios';
 
 const Background = styled.div`
   height: 100vh;
@@ -219,12 +220,15 @@ const PopUp = ({ isMobile }: Props) => {
 
     if(db && user){
       try{
-        const  contacts = await db.collection('contacts').findOne({ email: email.toLowerCase() });
-        if(contacts){
+        const  contacts = await axios.get(`https://sheet.best/api/sheets/97d68167-df40-4912-9903-95299d0a91d6/query?Email=*${email}*`);
+        if(contacts.data.length){
           alert('Brinde de usuário já resgatado.')
           return;
         }
-        await db.collection('contacts').insertOne({ nome, email: email.toLowerCase() });
+        axios.post('https://sheet.best/api/sheets/97d68167-df40-4912-9903-95299d0a91d6', {
+          Name: nome,
+          Email: email
+        })
         setEtapa(1)
         setTimeout(() => {
           setEtapa(2)
@@ -252,10 +256,14 @@ const PopUp = ({ isMobile }: Props) => {
               <ImgPopup src={imgs[etapa]} />
             </div>
               <FiX style={{
-                color: '#07706c',
+                fontSize: '24px',
+                backgroundColor: '#ffffffa6',
+                borderRadius: '50%',
+                padding: '5px',
+                color: '#ff0000',
                 position: 'absolute',
-                top: '15px',
-                right: '15px',
+                top: '20px',
+                right: '20px',
                 cursor: 'pointer'}}
                 onClick={handleClose}/>
               {
