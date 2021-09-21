@@ -326,7 +326,7 @@ const Products = () => {
           spaceBetween={0}
           slidesPerView={(width < 770 ? 1 : (width < 1200 ? 2 : 3))}
           onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+          //onSwiper={(swiper) => console.log(swiper)}
           >
           {products.slice(0).reverse().filter((i: any) => i.brand == brand).map((p, idx) => (
             <SwiperSlide key={idx} className="slide">

@@ -1,20 +1,23 @@
-import React, {Suspense, lazy} from 'react';
+import React, {Suspense, lazy, useEffect} from 'react';
 import Header from './sections/header';
 import Hero from './sections/hero';
 import Services from './sections/services';
 import Footer from './sections/footer';
 import { createGlobalStyle } from 'styled-components';
 import 'swiper/swiper-bundle.css';
-import FAQ from './sections/faq';
+import PopUpRoleta from './components/popUpRoleta'
+import { ToastContainer} from 'react-toastify';
+import { useMongoDB } from './providers/mongodb';
+import { useRealmApp } from './providers/realm';
 
 const Operation = lazy(() => import('./sections/operation'));
 const Depositions = lazy(() => import('./sections/depositions'));
 const Address = lazy(() => import('./sections/address'));
+const FAQ = lazy(() => import('./sections/faq'));
 
 const GlobalStyle = createGlobalStyle`
 
   body {
-
     font-family: 'MazzardH';
     margin: 0;
     padding: 0;
@@ -29,6 +32,11 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const GoglassPage = () => {
+  const { logIn, user } = useRealmApp()
+
+  if(!user){
+    logIn()
+  }
   
   return (
     <div style={{ display: 'flex', flexDirection: 'column', zIndex: -1 }}>
@@ -40,9 +48,11 @@ const GoglassPage = () => {
         <Operation/>
         <Depositions/>
         <Address/>
+        <FAQ/>
       </Suspense>
-      <FAQ/>
       <Footer/>
+      <PopUpRoleta/>
+      <ToastContainer/>      
     </div>
   )
 }
