@@ -28,7 +28,7 @@ const PopupContainer = styled.div`
   transform: translate(-50%,-50%);
   padding-bottom: 14px;
   width: 90vw;
-  max-width: 715px;
+  max-width: 520px;
   border-radius: 40px;
   box-shadow: -1px 1px 10px 1px #777;
   background-color: #fff;
@@ -51,7 +51,7 @@ const ImgPopup = styled.img`
 const Row1 = styled.div`
   background-color: #a0f9f6;
   height: 29.2vw;
-  max-height: 232.5px;
+  max-height: 169px;
   width: 100%;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -59,7 +59,7 @@ const Row1 = styled.div`
 const Row2 = styled.div`
   background-color: #00f0e4;
   height: 29.2vw;
-  max-height: 232.5px;
+  max-height: 169px;
   width: 100%;
 ` 
 
