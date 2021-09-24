@@ -26,7 +26,7 @@ const PopupContainer = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding-bottom: 20px;
+  padding-bottom: 14px;
   width: 90vw;
   max-width: 715px;
   border-radius: 40px;
@@ -64,7 +64,7 @@ const Row2 = styled.div`
 ` 
 
 const FormContainer = styled.div`
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +76,7 @@ const FormContainer = styled.div`
 `
 
 const FormRule = styled.p`
-  font-size: 21px;
+  font-size: 18px;
   text-align: center;
   color: #09969d;
 
@@ -86,7 +86,7 @@ const FormRule = styled.p`
 `
 
 const FormTitle = styled.p`
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
   color: #09969d;
 
@@ -138,6 +138,7 @@ const Input = styled.input`
   width: 90%;
   text-align: center;
   padding: 4px 0;
+  margin-bottom: 10px;
 
   @media only screen and (max-width: 768px){
     font-size: 16px;
@@ -288,8 +289,8 @@ const PopUp = ({ isMobile }: Props) => {
                     Preencha os dados abaixo e ganhe um prêmio exclusivo ao fazer a troca de vidro
                   </FormTitle>
                   <Form>
-                    <Input onChange={e=> setNome(e.target.value)} type="text" name="name" placeholder="seu nome" required/><br></br>
-                    <Input onChange={e=> setEmail(e.target.value)} type="email" name="email" placeholder="seu e-mail" required/><br></br>
+                    <Input onChange={e=> setNome(e.target.value)} type="text" name="name" placeholder="seu nome" required/>
+                    <Input onChange={e=> setEmail(e.target.value)} type="email" name="email" placeholder="seu e-mail" required/>
                   </Form>
                   <Submit onClick={e=> handleSubmit(e)} type="submit" value="girar roleta" disabled={isLoading}/>
                   <FormRule>
