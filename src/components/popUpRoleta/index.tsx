@@ -76,9 +76,11 @@ const FormContainer = styled.div`
 `
 
 const FormRule = styled.p`
-  font-size: 18px;
+  font-size: 12px;
   text-align: center;
   color: #09969d;
+
+  margin: 8px 0;
 
   @media only screen and (max-width: 768px){
     font-size: 12px;
@@ -89,6 +91,7 @@ const FormTitle = styled.p`
   font-size: 22px;
   text-align: center;
   color: #09969d;
+  margin: 8px 0;
 
   @media only screen and (max-width: 768px){
     font-size: 16px;
@@ -132,13 +135,13 @@ const Cupon = styled.div`
 `
 
 const Input = styled.input`
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 20px;
   max-width: 410px;
   width: 90%;
   text-align: center;
-  padding: 4px 0;
-  margin-bottom: 10px;
+  padding: 3px 0;
+  margin-bottom: 8px;
 
   @media only screen and (max-width: 768px){
     font-size: 16px;
@@ -151,10 +154,11 @@ const Submit = styled.input`
   color: #fff;
   max-width: 410px;
   width: 90%;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 700;
   border-radius: 20px;
   text-align: center;
-  padding: 4px 0;
+  padding: 3px 0;
 
   cursor: pointer;
 
@@ -178,7 +182,7 @@ type Props = {
 
 const PopUp = ({ isMobile }: Props) => {
   const cookies = new Cookies();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [etapa, setEtapa] = useState(0);
   const [email, setEmail] = useState('');
   const [nome, setNome] = useState('');
@@ -292,7 +296,7 @@ const PopUp = ({ isMobile }: Props) => {
                     <Input onChange={e=> setNome(e.target.value)} type="text" name="name" placeholder="seu nome" required/>
                     <Input onChange={e=> setEmail(e.target.value)} type="email" name="email" placeholder="seu e-mail" required/>
                   </Form>
-                  <Submit onClick={e=> handleSubmit(e)} type="submit" value="girar roleta" disabled={isLoading}/>
+                  <Submit onClick={e=> handleSubmit(e)} type="submit" value="Girar Roleta" disabled={isLoading}/>
                   <FormRule>
                     Prêmios válidos para os clientes que realizarem a troca de vidro na Goglass.
                   </FormRule>
