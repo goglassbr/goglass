@@ -9,11 +9,13 @@ import PopUpRoleta from './components/popUpRoleta'
 import { ToastContainer} from 'react-toastify';
 import { useMongoDB } from './providers/mongodb';
 import { useRealmApp } from './providers/realm';
+import { Experiment, Variant } from "react-optimize";
 
 const Operation = lazy(() => import('./sections/operation'));
 const Depositions = lazy(() => import('./sections/depositions'));
 const Address = lazy(() => import('./sections/address'));
 const FAQ = lazy(() => import('./sections/faq'));
+
 
 const GlobalStyle = createGlobalStyle`
 
@@ -44,6 +46,14 @@ const GoglassPage = () => {
       <Header/>
       <Hero/>
       <Services/>
+      {/* <Experiment id="yjWYQZslTDGXCABZpGipWA">
+        <Variant id="1">
+          <h1>2</h1>
+        </Variant>
+        <Variant id="0">
+          <h1>1</h1>
+        </Variant>
+      </Experiment> */}
       <Suspense fallback={<div>Loading...</div>}>
         <Operation/>
         <Depositions/>

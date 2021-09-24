@@ -64,10 +64,12 @@ const Line = styled.div`
 
 const ButtonsWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+  max-width: 600px;
 `;
 
 const PhonesWrapper = styled.div`
@@ -139,25 +141,28 @@ const Item = styled.div`
 `;
 
 const Img = styled.img`
-  height: auto;
-  width: 174px;
+  height: 435px;
+  width: auto;
   padding-bottom: 16px;
   cursor: pointer;
 
   @media (max-width: 1260px) {
-    width: 219px;
+    //width: 219px;
   }
 
   @media (max-width: 990px) {
-    width: 147px;
+    //width: 147px;
+    height: 297px;
   }
 
   @media (max-width: 780px) {
-    width: 210px;
+    //width: 210px;
+    height: 418px;
   }
 
   @media (max-width: 570px) {
-    width: 56vw;
+    //width: 56vw;
+    height: 456px;
     margin: auto;
   }
 `;
@@ -174,7 +179,7 @@ const BrandButton = styled.a`
   padding: 14px 40px 10px 40px;
   height: 44px;
   width: max-content;
-  margin: 0 5px;
+  margin: 5px 5px;
   background: linear-gradient(
     to right,
     rgba(20, 170, 148, 1) 0%,
@@ -307,6 +312,24 @@ const Products = () => {
           style={brand === 'watch' ? { background: '#646666' } : {}}
         >
           APPLE WATCH
+        </BrandButton>
+        <BrandButton
+          onClick={() => setBrand('ipad')}
+          style={brand === 'ipad' ? { background: '#646666' } : {}}
+        >
+          IPAD
+        </BrandButton>
+        <BrandButton
+          onClick={() => setBrand('xiaomi')}
+          style={brand === 'xiaomi' ? { background: '#646666' } : {}}
+        >
+          XIAOMI
+        </BrandButton>
+        <BrandButton
+          onClick={() => setBrand('motorola')}
+          style={brand === 'motorola' ? { background: '#646666' } : {}}
+        >
+          MOTOROLA
         </BrandButton>
       </ButtonsWrapper>
       <PhonesWrapper

@@ -400,7 +400,352 @@ export const products = [
     brand: 'watch',
     img: 'Apple-Watch-Series5.webp',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%205%20e%20falar%20com%20consultor',
-  }
+  },
+  {     
+    name: 'Ipad 2017',
+    brand: 'ipad',
+    img: '2017.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%202017%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'Ipad 2018',
+    brand: 'ipad',
+    img: '2018.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%202018%20e%20falar%20com%20consultor',
+  },{     
+    name: 'Ipad 4',
+    brand: 'ipad',
+    img: 'ipad 4.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%205%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'Ipad 5',
+    brand: 'ipad',
+    img: 'ipad 5.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20%20e%20falar%20com%20consultor',
+  },{     
+    name: 'Ipad 6',
+    brand: 'ipad',
+    img: 'ipad 6.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%206%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'Ipad 7',
+    brand: 'ipad',
+    img: 'ipad 7.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%207%20e%20falar%20com%20consultor',
+  },{     
+    name: 'Ipad Mini 2',
+    brand: 'ipad',
+    img: 'mini 2.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Mini%202%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'Ipad Mini 3',
+    brand: 'ipad',
+    img: 'mini 3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20mini%203%20e%20falar%20com%20consultor',
+  },{     
+    name: 'Ipad Mini 4',
+    brand: 'ipad',
+    img: 'mini 4.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Mini%204%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'Ipad Mini 5',
+    brand: 'ipad',
+    img: 'mini 5.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20mini%205%20e%20falar%20com%20consultor',
+  },{     
+    name: 'Ipad Pro 1 10.5',
+    brand: 'ipad',
+    img: 'pro 1 10.5.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Pro1%2010.5%20e%20falar%20com%20consultor',
+  },  {     
+    name: 'Ipad Pro 1 12.9',
+    brand: 'ipad',
+    img: 'pro 1 12.9.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Pro1%2012.9%20e%20falar%20com%20consultor',
+  },{     
+    name: 'Ipad Pro 9.7',
+    brand: 'ipad',
+    img: 'pro-9.7.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Pro%209.7%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'REDMI-NOTE-10-4G',
+    brand: 'xiaomi',
+    img: 'REDMI-NOTE-10-4G.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 10 4G%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'REDMI-NOTE-10-5G',
+    brand: 'xiaomi',
+    img: 'REDMI-NOTE-10-5G.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 10 5G%20e%20falar%20com%20consultor',
+  },{     
+    name: 'REDMI-NOTE-9S',
+    brand: 'xiaomi',
+    img: 'REDMI-NOTE-9S.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9S%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'redmi-note-9-pro-max',
+    brand: 'xiaomi',
+    img: 'redmi-note-9-pro-max.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9 Pro max%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi-note-9-pro',
+    brand: 'xiaomi',
+    img: 'redmi-note-9-pro.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9 Pro%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi-note-9',
+    brand: 'xiaomi',
+    img: 'redmi-note-9.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'mi 8 pro',
+    brand: 'xiaomi',
+    img: 'mi 8 pro.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI 8 PRO%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi 9',
+    brand: 'xiaomi',
+    img: 'mi 9.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'mi 9 lite',
+    brand: 'xiaomi',
+    img: 'mi 9 lite.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9 lite%20e%20falar%20com%20consultor',
+  },  {     
+    name: 'mi 9t',
+    brand: 'xiaomi',
+    img: 'mi 9t.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9t%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi 9t pro',
+    brand: 'xiaomi',
+    img: 'mi 9t pro.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9t pro%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'mi 10 lite',
+    brand: 'xiaomi',
+    img: 'mi 10 lite.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 10 lite%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'mi 10 edge 4g',
+    brand: 'xiaomi',
+    img: 'mi 10 edge 4g.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 10 edge 4g%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi 10 pro edge',
+    brand: 'xiaomi',
+    img: 'mi 10 pro edge.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 10 pro edge%20e%20falar%20com%20consultor',
+  },{     
+    name: 'MI 8',
+    brand: 'xiaomi',
+    img: 'MI 8.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI 8%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'MI 9SE',
+    brand: 'xiaomi',
+    img: 'MI 9SE.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI 9SE%20e%20falar%20com%20consultor',
+  },{     
+    name: 'MI A3',
+    brand: 'xiaomi',
+    img: 'MI A3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI A3%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi max 3',
+    brand: 'xiaomi',
+    img: 'mi max 3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi max 3%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'mi max 3',
+    brand: 'xiaomi',
+    img: 'mi max 3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi max 3%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi note 10 edge',
+    brand: 'xiaomi',
+    img: 'mi note 10 edge.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi note 10 edge%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi note 10 lite edge',
+    brand: 'xiaomi',
+    img: 'mi note 10 lite edge.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi note 10 lite edge%20e%20falar%20com%20consultor',
+  },{     
+    name: 'mi note 10 pro edge',
+    brand: 'xiaomi',
+    img: 'mi note 10 pro edge.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi note 10 pro edge%20e%20falar%20com%20consultor',
+  },{     
+    name: 'poco c3',
+    brand: 'xiaomi',
+    img: 'poco c3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco c3%20e%20falar%20com%20consultor',
+  },{     
+    name: 'POCO M3',
+    brand: 'xiaomi',
+    img: 'POCO M3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20POCO M3%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'poco x3',
+    brand: 'xiaomi',
+    img: 'poco x3.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco x3%20e%20falar%20com%20consultor',
+  },{     
+    name: 'poco x3 nfc',
+    brand: 'xiaomi',
+    img: 'poco x3 nfc.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco x3 nfc%20e%20falar%20com%20consultor',
+  },{     
+    name: 'poco x3 pro',
+    brand: 'xiaomi',
+    img: 'poco x3 pro.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco x3 pro%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi 8t',
+    brand: 'xiaomi',
+    img: 'redmi 8t.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 8t%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi 9',
+    brand: 'xiaomi',
+    img: 'redmi 9.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi 9a',
+    brand: 'xiaomi',
+    img: 'redmi 9a.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9a%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi 9c',
+    brand: 'xiaomi',
+    img: 'redmi 9c.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9c%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'redmi 9i',
+    brand: 'xiaomi',
+    img: 'redmi 9i.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9i%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi note 6',
+    brand: 'xiaomi',
+    img: 'redmi note 6.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 6%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi note 8',
+    brand: 'xiaomi',
+    img: 'redmi note 8.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'redmi note 8 pro',
+    brand: 'xiaomi',
+    img: 'redmi note 8 pro.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8 pro%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'redmi note 8t',
+    brand: 'xiaomi',
+    img: 'redmi note 8t.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8t%20e%20falar%20com%20consultor',
+  },{     
+    name: 'redmi note 8t',
+    brand: 'xiaomi',
+    img: 'redmi note 8t.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8t%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto-z-POWER',
+    brand: 'motorola',
+    img: 'moto-z-POWER.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto z power%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto-z',
+    brand: 'motorola',
+    img: 'moto-z.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto z%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto g8 plus',
+    brand: 'motorola',
+    img: 'moto g8 plus.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g8 plus%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto g8 power lite',
+    brand: 'motorola',
+    img: 'moto g8 power lite.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g8 power lite%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto g9',
+    brand: 'motorola',
+    img: 'moto g9.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g9%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto g9 power',
+    brand: 'motorola',
+    img: 'moto g9 power.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g9 power%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto g10',
+    brand: 'motorola',
+    img: 'moto g10.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g10%20e%20falar%20com%20consultor',
+  },
+  {     
+    name: 'moto g20',
+    brand: 'motorola',
+    img: 'moto g20.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g20%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto g30',
+    brand: 'motorola',
+    img: 'moto g30.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g30%20e%20falar%20com%20consultor',
+  },{     
+    name: 'MOTO G5',
+    brand: 'motorola',
+    img: 'MOTO G5.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MOTO G5%20e%20falar%20com%20consultor',
+  },{     
+    name: 'MOTO G5 plus',
+    brand: 'motorola',
+    img: 'MOTO G5 plus.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MOTO G5 plus%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto one fusion',
+    brand: 'motorola',
+    img: 'moto one fusion.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one fusion%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto one fusion plus',
+    brand: 'motorola',
+    img: 'moto one fusion plus.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one fusion plus%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto one hyper',
+    brand: 'motorola',
+    img: 'moto one hyper.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one hyper%20e%20falar%20com%20consultor',
+  },{     
+    name: 'moto one zoom',
+    brand: 'motorola',
+    img: 'moto one zoom.webp',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one zoom%20e%20falar%20com%20consultor',
+  },
 ];
 
 export const depositions = [
