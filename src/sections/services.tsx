@@ -193,7 +193,7 @@ const BrandButton = styled.a`
     height: 40px;
     padding: 4px 15px 0 15px;
     font-size: 16px;
-    margin: 0 2px;
+    margin: 2px 2px;
   }
 
   @media (max-width: 360px) {
