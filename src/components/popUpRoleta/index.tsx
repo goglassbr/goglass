@@ -181,6 +181,7 @@ const PopUp = ({ isMobile }: Props) => {
   const [etapa, setEtapa] = useState(0);
   const [email, setEmail] = useState('');
   const [nome, setNome] = useState('');
+  const [isLoading, setIsLoading] = useState(false)
 
   const { user } = useRealmApp()
   const { db } = useMongoDB()
@@ -220,8 +221,10 @@ const PopUp = ({ isMobile }: Props) => {
 
     if(db && user){
       try{
+        setIsLoading(true)
         const  contacts = await axios.get(`https://sheet.best/api/sheets/97d68167-df40-4912-9903-95299d0a91d6/query?Email=*${email}*`);
         if(contacts.data.length){
+          setIsLoading(false)
           alert('Brinde de usuário já resgatado.')
           return;
         }
@@ -234,7 +237,9 @@ const PopUp = ({ isMobile }: Props) => {
           setEtapa(2)
         }, 2000)
         cookies.set('getemail', 1, { path: '/' });
+        setIsLoading(false)
       }catch(err){
+        setIsLoading(false)
         alert('Erro ao realizar ação. Tente novamente mais tarde.')
       }
     }else{
@@ -286,7 +291,7 @@ const PopUp = ({ isMobile }: Props) => {
                     <Input onChange={e=> setNome(e.target.value)} type="text" name="name" placeholder="seu nome" required/><br></br>
                     <Input onChange={e=> setEmail(e.target.value)} type="email" name="email" placeholder="seu e-mail" required/><br></br>
                   </Form>
-                  <Submit onClick={e=> handleSubmit(e)} type="submit" value="girar roleta"/>
+                  <Submit onClick={e=> handleSubmit(e)} type="submit" value="girar roleta" disabled={isLoading}/>
                   <FormRule>
                     Prêmios válidos para os clientes que realizarem a troca de vidro na Goglass.
                   </FormRule>
