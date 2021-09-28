@@ -6,6 +6,8 @@ import SwiperCore, {Navigation} from 'swiper';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import { products } from '../data';
 
+import { Experiment, Variant } from "react-optimize";
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -209,6 +211,47 @@ const BrandButton = styled.a`
   }
 `;
 
+const Input = styled.input`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(3, 118, 135, 1);
+  padding: 14px 40px 10px 40px;
+  height: 44px;
+  width: max-content;
+  margin: 5px 5px;
+  outline: none;
+  border: 1px solid linear-gradient(
+    to right,
+    rgba(20, 170, 148, 1) 0%,
+    rgba(3, 118, 135, 1) 100%
+  );
+  transition: all 0.35s ease-in-out;
+  border-radius: 30px;
+  box-sizing: border-box;
+
+  @media (max-width: 700px) {
+    height: 40px;
+    padding: 4px 15px 0 15px;
+    font-size: 16px;
+    margin: 2px 2px;
+  }
+
+  @media (max-width: 360px) {
+    width: 95px;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+
+  @media (max-width: 320px) {
+    width: 85px;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+`
+
 const Circle = styled.div`
   display: flex;
   align-items: center;
@@ -273,6 +316,7 @@ SwiperCore.use([Navigation]);
 const Products = () => {
   const [brand, setBrand] = React.useState('iphone');
   const [width, setWidth] = React.useState(window.innerWidth);
+  const [buscarAparelho, setBuscarAparelho] = React.useState('')
 
   React.useEffect(() => {
     window && setWidth(window.innerWidth);
@@ -286,6 +330,8 @@ const Products = () => {
 
   }, [width]);
 
+  React.useEffect(()=> setBuscarAparelho(''), [brand])
+
   return (
     <Wrapper id="services">
       <h2>ENCONTRE SEU APARELHO</h2>
@@ -295,6 +341,25 @@ const Products = () => {
       </h3>
       <Line />
       <ButtonsWrapper>
+        <Experiment id="yjWYQZslTDGXCABZpGipWA">
+          <Variant id="0">
+            <div style={{display:'flex'}}>
+              <Input 
+                placeholder={"Selecione o aparelho..."}
+                onChange={(e) => setBuscarAparelho(e.target.value)}
+                value={buscarAparelho}/>
+              <BrandButton
+                style={{ background: '#006d87' }}
+                onClick={()=>{}}
+              >
+                Buscar
+              </BrandButton>
+            </div>
+            <div style={{width: '100%'}}>
+              <p style={{color:'#646666'}}> Ou selecione a marca</p>
+            </div>
+          </Variant>
+        </Experiment>
         <BrandButton
           onClick={() => setBrand('samsung')}
           style={brand === 'samsung' ? { background: '#646666' } : {}}
@@ -351,7 +416,7 @@ const Products = () => {
           onSlideChange={() => console.log('slide change')}
           //onSwiper={(swiper) => console.log(swiper)}
           >
-          {products.slice(0).reverse().filter((i: any) => i.brand == brand).map((p, idx) => (
+          {products.slice(0).reverse().filter((i: any) =>  buscarAparelho ? i.name.toLowerCase().indexOf(buscarAparelho.toLowerCase()) != -1 : i.brand === brand).map((p, idx) => (
             <SwiperSlide key={idx} className="slide">
               <Item title={p.name}>
                 <div style={{ display: 'flex', alignItems: 'center'}}>
