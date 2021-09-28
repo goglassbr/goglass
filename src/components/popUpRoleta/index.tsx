@@ -198,7 +198,7 @@ type Props = {
 
 const PopUp = ({ isMobile }: Props) => {
   const cookies = new Cookies();
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [etapa, setEtapa] = useState(0);
   const [email, setEmail] = useState('');
   const [nome, setNome] = useState('');
