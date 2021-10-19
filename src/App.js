@@ -7,9 +7,9 @@ import { createGlobalStyle } from 'styled-components';
 import 'swiper/swiper-bundle.css';
 import PopUpRoleta from './components/popUpRoleta'
 import { ToastContainer} from 'react-toastify';
-import { useMongoDB } from './providers/mongodb';
 import { useRealmApp } from './providers/realm';
-import { Experiment, Variant } from "react-optimize";
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Concorra from './screens/concorra';
 
 const Operation = lazy(() => import('./sections/operation'));
 const Depositions = lazy(() => import('./sections/depositions'));
@@ -18,7 +18,6 @@ const FAQ = lazy(() => import('./sections/faq'));
 
 
 const GlobalStyle = createGlobalStyle`
-
   body {
     font-family: 'MazzardH';
     margin: 0;
@@ -41,29 +40,30 @@ const GoglassPage = () => {
   }
   
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', zIndex: -1 }}>
-      <GlobalStyle/>
-      <Header/>
-      <Hero/>
-      <Services/>
-      {/* <Experiment id="yjWYQZslTDGXCABZpGipWA">
-        <Variant id="1">
-          <h1>2</h1>
-        </Variant>
-        <Variant id="0">
-          <h1>1</h1>
-        </Variant>
-      </Experiment> */}
-      <Suspense fallback={<div>Loading...</div>}>
-        <Operation/>
-        <Depositions/>
-        <Address/>
-        <FAQ/>
-      </Suspense>
-      <Footer/>
-      <PopUpRoleta/>
-      <ToastContainer/>      
-    </div>
+    <>
+    <GlobalStyle/>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <div style={{ display: 'flex', flexDirection: 'column', zIndex: -1 }}>
+            <Header/>
+            <Hero/>
+            <Services/>
+            <Suspense fallback={<div>Loading...</div>}>
+              <Operation/>
+              <Depositions/>
+              <Address/>
+              <FAQ/>
+            </Suspense>
+            <Footer/>
+            <PopUpRoleta/>
+            <ToastContainer/>      
+          </div>
+        </Route>
+        <Route path='/concorra' component={Concorra}/>
+      </Switch>
+    </Router>
+    </>
   )
 }
 
