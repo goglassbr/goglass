@@ -402,7 +402,7 @@ const Concorra: React.FC  = () => {
           </Text>
           <Arrow src="imgs/seta.png" alt="seta" />
         </div>
-        <InstaImg src="imgs/post.png" alt="instagram"/>
+        <InstaImg onClick={() => window.location.href = 'https://www.instagram.com/p/CVdog2bgYKa/?utm_source=ig_web_button_share_sheet'} src="imgs/post.png" alt="instagram"/>
         <GoodLuckImg src="imgs/boasorte.png" alt="boa sorte image"/>
 
       </InstaGrid>
