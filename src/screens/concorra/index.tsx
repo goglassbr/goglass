@@ -324,8 +324,8 @@ const Concorra: React.FC  = () => {
 
   const handleSubmit = async () => {
     const data = {
-      instagram,
-      email,
+      Email: email,
+      Name : instagram,
       modelo
     }
     if(!instagram || !email || !modelo){
