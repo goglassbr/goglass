@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdRouter } from 'react-icons/md';
 import styled from 'styled-components';
+import Dialog from '../../components/dialog'
 
 // import imgDesktop from '/public/imgs/background desktop.webp';
 // import imgMobile from '/public/imgs/background mobile.webp';
@@ -53,7 +54,7 @@ const ImgSorteio = styled.img`
   max-width: 800px;
   width: 35vw;
   height: auto;
-  content:url("imgs/principal-desktop.webp");
+  content:url("imgs/principal-desktop.png");
   @media screen and (max-width: 764px){
     content:url("imgs/principal.webp");
     width: 80vw;
@@ -319,6 +320,7 @@ const Concorra: React.FC  = () => {
   const [instagram, setInstagram] = React.useState('')
   const [email, setEmail] = React.useState('')
   const [modelo, setModelo] = React.useState('')
+  const [isOpen, setIsOpen] = React.useState(false)
 
   const [submited, setSubmited] = React.useState(false)
 
@@ -328,13 +330,14 @@ const Concorra: React.FC  = () => {
       Name : instagram,
       modelo
     }
+    console.log(data)
     if(!instagram || !email || !modelo){
       alert('Preencha todos os campos solicitados.')
       return;
     }
     setSubmited(true)
     await createCustomerSorteio(data)
-    window.location.href = 'concorra#instagram'
+    setIsOpen(true)
   }
 
   return (
@@ -395,26 +398,35 @@ const Concorra: React.FC  = () => {
           Somos a Goglass, a assistência técnica mais bem avaliada da Bahia. Especializados em troca de vidro de Smartphones Premium, temos a missão de revolucionar o mercado de assistências, proporcionando um serviço seguro e de qualidade. Este ano, estamos comemorando 2 anos de casa e mais de 4 mil telas reparadas! Mas quem ganha o presente é você!
           </Text>
       </Row>
-      <InstaGrid>
+      <InstaGrid id="instagram">
         <div style={{justifyContent: 'center', display:"flex", flexDirection: "column"}}>
           <Text style={{color: '#fff', fontWeight: 700}}>
-            Agora só falta você compartilhar a postagem do sorteio nos stories e seguir a gente, para isso basta clicar na imagem ao lado!
+            Agora só falta você compartilhar a postagem do sorteio nos stories e seguir a gente, para isso basta <p style={{color: '#00eadf', margin: 0}}>ir até nosso perfil @goglassbr e buscar essa imagem no feed ou destaques!</p>
           </Text>
           <Arrow src="imgs/seta.png" alt="seta" />
         </div>
-        <InstaImg onClick={() => window.location.href = 'https://www.instagram.com/p/CVdog2bgYKa/?utm_source=ig_web_button_share_sheet'} src="imgs/post.png" alt="instagram"/>
+        <InstaImg src="imgs/post.png" alt="instagram"/>
         <GoodLuckImg src="imgs/boasorte.png" alt="boa sorte image"/>
 
       </InstaGrid>
-      <Row style={{backgroundColor: '#00eadf', maxWidth: 'unset', width: '100vw', padding: '4px 64px', boxSizing: 'border-box', marginTop: '56px'}}/>
-      <WhatsappRow id="instagram">
-          <WhatsappImg src="imgs/whatsapp.png" alt="whatsapp"/>
-          <Text style={{color: '#fff', fontWeight: 700}}>
-            Agora só falta você compartilhar a postagem do sorteio nos stories e seguir a gente, para isso basta clicar na imagem ao lado!
-          </Text>
-      </WhatsappRow>
-
-      
+      {
+        isOpen&&
+        <Dialog
+            text="Parabéns! "
+            description="Você está concorrendo a um Apple Watch S7!"
+            isOpen={isOpen}
+            onConfirmText='Confirmar'
+            onClose={() => {
+              setIsOpen(false)
+              window.location.href = 'concorra#instagram'
+            }
+            }
+            onConfirm={()=> {
+              setIsOpen(false)
+              window.location.href = 'concorra#instagram'
+            }}
+          />
+      }
     </Wrapper>
   );
 }
