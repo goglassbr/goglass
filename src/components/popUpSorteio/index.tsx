@@ -143,11 +143,7 @@ const ImgSorteio = styled.img`
   width: 80%;
   height: auto;
   content:url("imgs/principal-desktop.png");
-  @media screen and (max-width: 764px){
-    content:url("imgs/principal.webp");
-    width: 80vw;
-    margin-inline: auto;
-  }
+  
 `
 type Props = {
   isMobile: boolean;
