@@ -5,7 +5,7 @@ import Services from './sections/services';
 import Footer from './sections/footer';
 import { createGlobalStyle } from 'styled-components';
 import 'swiper/swiper-bundle.css';
-import PopUpRoleta from './components/popUpRoleta'
+import PopUpSorteio from './components/popUpSorteio'
 import { ToastContainer} from 'react-toastify';
 import { useRealmApp } from './providers/realm';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
@@ -56,7 +56,7 @@ const GoglassPage = () => {
               <FAQ/>
             </Suspense>
             <Footer/>
-            <PopUpRoleta/>
+            <PopUpSorteio/>
             <ToastContainer/>      
           </div>
         </Route>
