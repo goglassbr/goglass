@@ -109,8 +109,8 @@ const Address = () => {
         <h2>LOJA</h2>
         <span>Endereço</span>
         <h3>
-          Av. Prof. Magalhães Neto, 1752 - Sala 309 -<br/>
-          Pituba, Salvador - BA, 41810-012
+          Salvador Trade Center, Torre Norte, Sala 1905* -<br/>
+          Avenida Tancredo Neves, N° 1632, Caminho das Árvores, Salvador, CEP: 41.820-020.
         </h3>
         <Line />
         <Frame>  

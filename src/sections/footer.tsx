@@ -194,7 +194,8 @@ const Footer = () => {
             <h5>CNPJ: 34776332/0001-84</h5>
             <a href="mailto:goglassbr@gmail.com"><h5>goglassbr@gmail.com</h5></a>
             <a href="https://api.whatsapp.com/send?phone=7197166900"><h5>(71) 9716-6900</h5></a>
-            <h5>Av. Prof. Magalhães Neto, 1752 - Sala 309 - Pituba, Salvador - BA, 41810-012</h5>
+            <h5>Salvador Trade Center, Torre Norte, Sala 1905* - 
+          Avenida Tancredo Neves, N° 1632, Caminho das Árvores, Salvador, CEP: 41.820-020.</h5>
             <h5>Segunda a Sexta de 9h às 18h</h5>
           </Section>
           <Section>
