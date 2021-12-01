@@ -56,7 +56,7 @@ const GoglassPage = () => {
               <FAQ/>
             </Suspense>
             <Footer/>
-            <PopUpSorteio/>
+            {/* <PopUpSorteio/> */}
             <ToastContainer/>      
           </div>
         </Route>
