@@ -1,10 +1,14 @@
 import React from 'react';
+import { MdRouter } from 'react-icons/md';
 import styled from 'styled-components';
-import banner1 from '../source/banner-1.webp';
-import banner2 from '../source/banner-2.webp';
-import banner3 from '../source/banner-3.webp';
+import banner1 from '../source/banner_natal_1.webp';
+import banner2 from '../source/banner_natal_2.webp';
+import banner1Mobile from '../source/banner_natal_1_mobile.webp';
+import banner2Mobile from '../source/banner_natal_2_mobile.webp';
 
-const Wrapper = styled.div`
+const imgs = { desktop: [banner1, banner2], mobile: [banner1Mobile, banner2Mobile]};
+
+const Wrapper = styled.div<{idx: number}>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,11 +17,11 @@ const Wrapper = styled.div`
   height: 80vh;
   background-size: cover;
   background-position: center;
-  background-color: #888;
-  background-blend-mode: multiply;
-
+  background-image: url(${(props) => imgs.desktop[props.idx]});
+  
   @media (max-width: 600px) {
-   height: 410px;
+    background-image: url(${props => imgs.mobile[props.idx]});
+    height: 410px;
   }
 `;
 
@@ -106,7 +110,6 @@ const Button = styled.a`
 `;
 
 const Hero = () => {
-  const imgs = [banner1, banner2, banner3];
   const [activeImg, setActiveImg] = React.useState(0);
 
   React.useEffect(() => {
@@ -119,7 +122,7 @@ const Hero = () => {
 
   const moveBanner = () => {
     setActiveImg((activeImg) => {
-      if (activeImg < imgs.length - 1) {
+      if (activeImg < imgs.desktop.length - 1) {
         return activeImg + 1;
       } else {
         return 0;
@@ -128,16 +131,8 @@ const Hero = () => {
   };
 
   return (
-    <Wrapper style={{ backgroundImage: `url(${imgs[activeImg]})` }}>
-      <BannerText>
-        <h2>BLACK FRIDAY</h2>
-        <h3>25% off na troca do seu vidro!</h3>
-        <Line></Line>
-        <h4>
-          Fale com a gente e conserte sua tela sem gastar quase nada!
-        </h4>
-        <Button href="#services">QUERO ECONOMIZAR!</Button>
-      </BannerText>
+    <Wrapper onClick={()=> window.location.href="#services"} idx={activeImg}>
+      {/* <Button href="#services">QUERO ECONOMIZAR!</Button> */}
     </Wrapper>
   );
 };
