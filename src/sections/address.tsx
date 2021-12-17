@@ -109,12 +109,12 @@ const Address = () => {
         <h2>LOJA</h2>
         <span>Endereço</span>
         <h3>
-          Salvador Trade Center, Torre Norte, Sala 1905* -<br/>
-          Avenida Tancredo Neves, N° 1632, Caminho das Árvores, Salvador, CEP: 41.820-020.
+          Salvador Trade Center, Torre Norte, Sala 1905 - <br/>
+          Avenida Tancredo Neves, N° 1632, Caminho das Árvores, Salvador, CEP: 41.820-020
         </h3>
         <Line />
         <Frame>  
-          <iframe width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=Av.%20Prof.%20Magalh%C3%A3es%20Neto,%201752,%20Pituba,%20Salvador,%20Bahia,%20Brazil+(Assist%C3%AAncia%20T%C3%A9cnica%20Goglass)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.814296794868!2d-38.45588053517787!3d-12.983726440847892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b10049d63ef%3A0x5db7abe00761d876!2sSalvador%20Trade%20Center!5e0!3m2!1sen!2sbr!4v1639770967878!5m2!1sen!2sbr" width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} loading="lazy"></iframe>
         </Frame>
       </Column>
     </Wrapper>
