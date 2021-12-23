@@ -10,13 +10,13 @@ import {products} from '../../data'
 import { createCustomerSorteio } from '../../services/sorteio';
 
 const Wrapper = styled.div`
-  background-image: url('imgs/background desktop.webp');
+  background-image: url('imgs/background-desktop.webp');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   @media screen and (max-width: 764px){
-    background-image: url("imgs/background mobile.webp");
+    background-image: url("imgs/background-mobile.webp");
   }
 ` 
 
@@ -28,6 +28,8 @@ const Header = styled.div`
 `
 
 const Logo = styled.img`
+  margin-inline: auto;
+  padding-bottom: 32px;
   width: 200px;
   height: auto;
 ` 
@@ -38,10 +40,11 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  align-items: center;
   margin-inline: auto;
   max-width: 1300px;
   align-items: center;
-  grid-gap: 5vw;
+  grid-gap: 1vw;
   @media screen and (max-width: 764px){
     grid-template-columns: 1fr;
     grid-gap: 0;
@@ -54,7 +57,7 @@ const ImgSorteio = styled.img`
   max-width: 800px;
   width: 35vw;
   height: auto;
-  content:url("imgs/principal-desktop.png");
+  content:url("imgs/principal.webp");
   @media screen and (max-width: 764px){
     content:url("imgs/principal.webp");
     width: 80vw;
@@ -66,6 +69,8 @@ const Form = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
+  align-items: center;
 `
 
 const FormTitle = styled.h2`
@@ -82,12 +87,14 @@ const FormTitle = styled.h2`
 `
 
 export const Input = styled.input`
-  width: 80%;
+  text-align: center;
+  max-width: 80%;
   box-sizing: border-box;
   font-weight: 500;
   font-size: 18px;
   line-height:18px;
   width: 100%;
+  border-radius: 16px;
 
   padding: 10px;
   margin: 5px 0;
@@ -144,11 +151,12 @@ export const Button = styled.button`
   font-size: 18px;
   line-height:18px;
   color: #000;
-  width: 100%;
+  width: 80%;
   background: #00eadf;
   border: none;
+  border-radius: 16px;
 
-  padding: 10px 92px;
+  padding: 12px 92px;
   margin: 5px 0;
   
   transition:all .2s;
@@ -285,7 +293,7 @@ const GoodLuckImg = styled.img`
 
 const Arrow = styled.img`
   margin-inline: auto; 
-  width: 8vw;
+  width: 5vw;
   @media (max-width: 768px) {
     width: 16vw;
   }
@@ -343,14 +351,12 @@ const Concorra: React.FC  = () => {
   return (
     <Wrapper>
       <Header>
-        <Logo src='imgs/goglass.png' alt='logotipo googlass'/>
+        
       </Header>
       <Container>
         <ImgSorteio/>
         <Form>
-          <FormTitle>
-            Seja uma das primeiras pessoas de Salvador a ter um APPLE WATCH S7
-          </FormTitle>
+          <Logo src='imgs/goglass.png' alt='logotipo googlass'/>
           <Input placeholder="Instagram" value={instagram} onChange={(e)=> setInstagram(e.target.value)}/>
           <Input placeholder="E-mail" value={email} onChange={(e)=> setEmail(e.target.value)}/>
           <Input list="modelo" placeholder="Modelo do seu celular" value={modelo} onChange={(e)=> setModelo(e.target.value)}/>
@@ -363,9 +369,9 @@ const Concorra: React.FC  = () => {
           <Button onClick={handleSubmit} disabled={submited}>
             Cadastre-se para ganhar
           </Button>
-          <FormDescription>
+          {/* <FormDescription>
             Sorteio de Apple Watch válido apenas para pessoas residentes em Salvador , Bahia. Para concorrer siga as regras abaixo. As informações de como será o sorteio serão enviadas por e-mail assim que você realizar o cadastro.
-          </FormDescription>
+          </FormDescription> */}
         </Form>
       </Container>
       <Row>
@@ -401,11 +407,11 @@ const Concorra: React.FC  = () => {
       <InstaGrid id="instagram">
         <div style={{justifyContent: 'center', display:"flex", flexDirection: "column"}}>
           <Text style={{color: '#fff', fontWeight: 700}}>
-            Agora só falta você compartilhar a postagem do sorteio nos stories e seguir a gente, para isso basta <p style={{color: '#00eadf', margin: 0}}>ir até nosso perfil @goglassbr e buscar essa imagem no feed ou destaques!</p>
+            Agora só falta você marcar 3 amigos nos comentários deste post e seguir a gente! quanto mais você comentar, mais chances de ganhar! <br/><br/> Boa sorte :D
           </Text>
           <Arrow src="imgs/seta.png" alt="seta" />
         </div>
-        <InstaImg src="imgs/post.png" alt="instagram"/>
+        <InstaImg src="imgs/post.webp" alt="instagram"/>
         <GoodLuckImg src="imgs/boasorte.png" alt="boa sorte image"/>
 
       </InstaGrid>
@@ -413,7 +419,7 @@ const Concorra: React.FC  = () => {
         isOpen&&
         <Dialog
             text="Parabéns! "
-            description="Você está concorrendo a um Apple Watch S7!"
+            description="Você agora está concorrendo!"
             isOpen={isOpen}
             onConfirmText='Confirmar'
             onClose={() => {
