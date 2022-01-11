@@ -130,11 +130,11 @@ const Hero = () => {
   return (
     <Wrapper style={{ backgroundImage: `url(${imgs[activeImg]})` }}>
       <BannerText>
-        <h2>BLACK FRIDAY</h2>
-        <h3>25% off na troca do seu vidro!</h3>
+        <h2>TRINCOU A TELA?</h2>
+        <h3>Não deixe para depois!</h3>
         <Line></Line>
         <h4>
-          Fale com a gente e conserte sua tela sem gastar quase nada!
+          Economize até 70% na troca do seu vidro sem precisar sair de casa
         </h4>
         <Button href="#services">QUERO ECONOMIZAR!</Button>
       </BannerText>
