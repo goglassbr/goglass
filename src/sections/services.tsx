@@ -291,12 +291,10 @@ const Button = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  font-size: 16px;
   color: #fff;
   font-weight: 900;
   cursor: pointer;
-  padding: 10px 15px 5px 15px;
+  padding: 10px 15px;
   height: 28px;
   background-color: #e21c21;
   transition: all 0.35s ease-in-out;
@@ -310,6 +308,37 @@ const Button = styled.a`
     height: 25px;
   }
 `;
+
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  gap: 10px;
+  @media (max-width: 700px) {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+`;
+
+const Col = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+const PriceTitle = styled.p`
+  margin-block-start: 0;
+  margin-block-end: 0;
+`
+
+const Price = styled(PriceTitle)`
+  font-size: 24px;
+  font-weight: bold;
+  color: #e21c21;
+`
 
 SwiperCore.use([Navigation]);
 
@@ -422,10 +451,16 @@ const Products = () => {
                 <div style={{ display: 'flex', alignItems: 'center'}}>
                   <Img id="wppurl" src={p.img} onClick={() => (window.location.href = p.link)}/>
                 </div>
-                <Button id="wppurl" onClick={() => (window.location.href = p.link)}>
-                  <FaWhatsapp size="22px" color="#fff" style={{ margin: '0 8px 4px 0' }}/>
-                  FALE COM CONSULTOR
-                </Button>
+                <Row>
+                  <Col>
+                    <PriceTitle>Preço:</PriceTitle>
+                    <Price>{p.price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</Price>
+                  </Col>
+                  <Button id="wppurl" onClick={() => (window.location.href = p.link)}>
+                    <FaWhatsapp size="22px" color="#fff" style={{marginRight: 5}}/>
+                    Fale<br/>conosco
+                  </Button>
+                </Row>
               </Item>
             </SwiperSlide>
           ))}

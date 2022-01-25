@@ -2,448 +2,448 @@ export const products = [
   {     
     name: 'Samsung Galaxy A01',
     brand: 'samsung',
-    img: 'A01.webp',
+    img: 'newimgs/A01.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A01%20e%20falar%20com%20consultor',
     price: 234
   },
   {     
     name: 'Samsung Galaxy A5',
     brand: 'samsung',
-    img: 'A5.webp',
+    img: 'newimgs/A5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A5%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A6',
     brand: 'samsung',
-    img: 'A6.webp',
+    img: 'newimgs/A6.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A6%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A6 Plus',
     brand: 'samsung',
-    img: 'A6-PLUS.webp',
+    img: 'newimgs/A6-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A6%20Plus%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A7',
     brand: 'samsung',
-    img: 'A7.webp',
+    img: 'newimgs/A7.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A7%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A8',
     brand: 'samsung',
-    img: 'A8.webp',
+    img: 'newimgs/A8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A8%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A8 Plus',
     brand: 'samsung',
-    img: 'A8-PLUS.webp',
+    img: 'newimgs/A8-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A8%20Plus%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A9',
     brand: 'samsung',
-    img: 'A9.webp',
+    img: 'newimgs/A9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A9%20e%20falar%20com%20consultor',
     price: 396
   },
   {     
     name: 'Samsung Galaxy A9 Pro',
     brand: 'samsung',
-    img: 'A9-PRO.webp',
+    img: 'newimgs/A9-PRO.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A9%20Pro%20e%20falar%20com%20consultor',
     price: 396
   },
   {     
     name: 'Samsung Galaxy A10',
     brand: 'samsung',
-    img: 'A10.webp',
+    img: 'newimgs/A10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A10%20e%20falar%20com%20consultor',
     price: 252
   },
   {     
     name: 'Samsung Galaxy A10s',
     brand: 'samsung',
-    img: 'A10s.webp',
+    img: 'newimgs/A10s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A10s%20e%20falar%20com%20consultor',
     price: 252
   },
   {     
     name: 'Samsung Galaxy A11',
     brand: 'samsung',
-    img: 'A11.webp',
+    img: 'newimgs/A11.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A11%20e%20falar%20com%20consultor',
     price: 270
   },
   {     
     name: 'Samsung Galaxy A20',
     brand: 'samsung',
-    img: 'A20.webp',
+    img: 'newimgs/A20.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A20%20e%20falar%20com%20consultor',
     price: 306
   },
   {     
     name: 'Samsung Galaxy A20s',
     brand: 'samsung',
-    img: 'A20s.webp',
+    img: 'newimgs/A20s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A20s%20e%20falar%20com%20consultor',
     price: 306
   },
   {     
     name: 'Samsung Galaxy A21s',
     brand: 'samsung',
-    img: 'A21s.webp',
+    img: 'newimgs/A21s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A21s%20e%20falar%20com%20consultor',
     price: 270
   },
   {     
     name: 'Samsung Galaxy A30',
     brand: 'samsung',
-    img: 'A30.webp',
+    img: 'newimgs/A30.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A30%20e%20falar%20com%20consultor',
     price: 270
   },
   {     
     name: 'Samsung Galaxy A30s',
     brand: 'samsung',
-    img: 'A30s.webp',
+    img: 'newimgs/A30s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A30s%20e%20falar%20com%20consultor',
     price: 270
   },
   {     
     name: 'Samsung Galaxy A31',
     brand: 'samsung',
-    img: 'A31.webp',
+    img: 'newimgs/A31.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A31%20e%20falar%20com%20consultor',
     price: 315
   },
   {     
     name: 'Samsung Galaxy A50',
     brand: 'samsung',
-    img: 'A50.webp',
+    img: 'newimgs/A50.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A50%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Samsung Galaxy A51',
     brand: 'samsung',
-    img: 'A51.webp',
+    img: 'newimgs/A51.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A51%20e%20falar%20com%20consultor',
     price: 360
   },
   {     
     name: 'Samsung Galaxy A70',
     brand: 'samsung',
-    img: 'A70.webp',
+    img: 'newimgs/A70.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A70%20e%20falar%20com%20consultor',
     price: 387
   },
   {     
     name: 'Samsung Galaxy A71',
     brand: 'samsung',
-    img: 'A71.webp',
+    img: 'newimgs/A71.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A71%20e%20falar%20com%20consultor',
     price: 396
   },
   {     
     name: 'Samsung Galaxy A80',
     brand: 'samsung',
-    img: 'A80.webp',
+    img: 'newimgs/A80.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A80%20e%20falar%20com%20consultor',
     price: 459
   },
   {     
     name: 'Samsung Galaxy S7 Flat',
     brand: 'samsung',
-    img: 'S7-FLAT.webp',
+    img: 'newimgs/S7-FLAT.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S7%20Flat%20e%20falar%20com%20consultor',
     price: 360
   },
   {     
     name: 'Samsung Galaxy S8',
     brand: 'samsung',
-    img: 'S8.webp',
+    img: 'newimgs/S8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S8%20e%20falar%20com%20consultor',
     price: 459
   },
   {     
     name: 'Samsung Galaxy S8 Plus',
     brand: 'samsung',
-    img: 'S8-PLUS.webp',
+    img: 'newimgs/S8-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S8%20Plus%20e%20falar%20com%20consultor',
     price: 504
   },
   {     
     name: 'Samsung Galaxy S9',
     brand: 'samsung',
-    img: 'S9.webp',
+    img: 'newimgs/S9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S9%20e%20falar%20com%20consultor',
     price: 594
   },
   {     
     name: 'Samsung Galaxy S9 Plus',
     brand: 'samsung',
-    img: 'S9-PLUS.webp',
+    img: 'newimgs/S9-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S9%20Plus%20e%20falar%20com%20consultor',
     price: 630
   },
   {     
     name: 'Samsung Galaxy S10',
     brand: 'samsung',
-    img: 'S10.webp',
+    img: 'newimgs/S10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10%20e%20falar%20com%20consultor',
     price: 729
   },
   {     
     name: 'Samsung Galaxy S10e',
     brand: 'samsung',
-    img: 'S10e.webp',
+    img: 'newimgs/S10e.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10e%20e%20falar%20com%20consultor',
     price: 549
   },
   {     
     name: 'Samsung Galaxy S10 Lite',
     brand: 'samsung',
-    img: 'S10-LITE.webp',
+    img: 'newimgs/S10 lite.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10%20Lite%20e%20falar%20com%20consultor',
     price: 720
   },
   {     
     name: 'Samsung Galaxy S10 Plus',
     brand: 'samsung',
-    img: 'S10-PLUS.webp',
+    img: 'newimgs/S10-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10%20Plus%20e%20falar%20com%20consultor',
     price: 819
   },
   {     
     name: 'Samsung Galaxy S20',
     brand: 'samsung',
-    img: 'S20.webp',
+    img: 'newimgs/S20.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S20%20e%20falar%20com%20consultor',
     price: 773
   },
   {     
     name: 'Samsung Galaxy S20 Fe',
     brand: 'samsung',
-    img: 'S20-FE.webp',
+    img: 'newimgs/S20 fe.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S20%20Fe%20e%20falar%20com%20consultor',
     price: 680
   },
   {     
     name: 'Samsung Galaxy S20 Plus',
     brand: 'samsung',
-    img: 'S20-PLUS.webp',
+    img: 'newimgs/S20-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S20%20Plus%20e%20falar%20com%20consultor',
     price: 858
   },
   {     
     name: 'Samsung Galaxy S20 Ultra',
     brand: 'samsung',
-    img: 'S20-ULTRA.webp',
+    img: 'newimgs/S20-ULTRA.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S20%20Ultra%20e%20falar%20com%20consultor',
     price: 943
   },
   {     
     name: 'Samsung Galaxy Note 8',
     brand: 'samsung',
-    img: 'Note-8.webp',
+    img: 'newimgs/Note-8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%208%20e%20falar%20com%20consultor',
     price: 568
   },
   {     
     name: 'Samsung Galaxy Note 9',
     brand: 'samsung',
-    img: 'Note-9.webp',
+    img: 'newimgs/Note-9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%209%20e%20falar%20com%20consultor',
     price: 608
   },
   {     
     name: 'Samsung Galaxy Note 10',
     brand: 'samsung',
-    img: 'Note-10.webp',
+    img: 'newimgs/Note-10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2010%20e%20falar%20com%20consultor',
     price: 648
   },
   {     
     name: 'Samsung Galaxy Note 10 Lite',
     brand: 'samsung',
-    img: 'Note-10-LITE.webp',
+    img: 'newimgs/Note-10-LITE.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2010%20Lite%20e%20falar%20com%20consultor',
     price: 648
   },
   {     
     name: 'Samsung Galaxy Note 10 Plus',
     brand: 'samsung',
-    img: 'Note-10-PLUS.webp',
+    img: 'newimgs/Note-10-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2010%20Plus%20e%20falar%20com%20consultor',
     price: 728
   },
   {     
     name: 'Samsung Galaxy Note 20',
     brand: 'samsung',
-    img: 'Note-20.webp',
+    img: 'newimgs/note 20.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2020%20e%20falar%20com%20consultor',
     price: 960
   },
   {     
     name: 'Samsung Galaxy Note 20 Ultra',
     brand: 'samsung',
-    img: 'Note-20-ULTRA.webp',
+    img: 'newimgs/note 20 ultra.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2020%20Ultra%20e%20falar%20com%20consultor',
     price: 1040
   },
   {     
     name: 'Apple iPhone 6',
     brand: 'iphone',
-    img: 'iPhone-6.webp',
+    img: 'newimgs/iPhone-6.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%206%20e%20falar%20com%20consultor',
     price: 208
   },
   {     
     name: 'Apple iPhone 6 Plus',
     brand: 'iphone',
-    img: 'iPhone-6-PLUS.webp',
+    img: 'newimgs/iphone 6 plus.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%206%20Plus%20e%20falar%20com%20consultor',
     price: 208
   },
   {     
     name: 'Apple iPhone 6s',
     brand: 'iphone',
-    img: 'iPhone-6s.webp',
+    img: 'newimgs/iPhone-6s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%206s%20e%20falar%20com%20consultor',
     price: 208
   },
   {     
     name: 'Apple iPhone 6s Plus',
     brand: 'iphone',
-    img: 'iPhone-6s-PLUS.webp',
+    img: 'newimgs/iPhone-6s-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%206s%20Plus%20e%20falar%20com%20consultor',
     price: 208
   },
   {     
     name: 'Apple iPhone 7',
     brand: 'iphone',
-    img: 'iPhone-7.webp',
+    img: 'newimgs/iPhone-7.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%207%20e%20falar%20com%20consultor',
     price: 279
   },
   {     
     name: 'Apple iPhone 7 Plus',
     brand: 'iphone',
-    img: 'iPhone-7-PLUS.webp',
+    img: 'newimgs/iPhone-7-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%207%20Plus%20e%20falar%20com%20consultor',
     price: 324
   },
   {     
     name: 'Apple iPhone 8',
     brand: 'iphone',
-    img: 'iPhone-8.webp',
+    img: 'newimgs/iPhone-8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%208%20e%20falar%20com%20consultor',
     price: 360
   },
   {     
     name: 'Apple iPhone 8 Plus',
     brand: 'iphone',
-    img: 'iPhone-8-PLUS.webp',
+    img: 'newimgs/iPhone-8-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%208%20Plus%20e%20falar%20com%20consultor',
     price: 410
   },
   {     
     name: 'Apple iPhone X',
     brand: 'iphone',
-    img: 'iPhone-X.webp',
+    img: 'newimgs/iPhone-X.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20X%20e%20falar%20com%20consultor',
     price: 660
   },
   {     
     name: 'Apple iPhone Xr',
     brand: 'iphone',
-    img: 'iPhone-XR.webp',
+    img: 'newimgs/iPhone-XR.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20Xr%20e%20falar%20com%20consultor',
     price: 710
   },
   {     
     name: 'Apple iPhone Xs',
     brand: 'iphone',
-    img: 'iPhone-XS.webp',
+    img: 'newimgs/iPhone-XS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20Xs%20e%20falar%20com%20consultor',
     price: 760
   },
   {     
     name: 'Apple iPhone Xs Max',
     brand: 'iphone',
-    img: 'iPhone-XS-MAX.webp',
+    img: 'newimgs/iPhone-XS-MAX.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20Xs%20Max%20e%20falar%20com%20consultor',
     price: 860
   },
   {     
     name: 'Apple iPhone 11',
     brand: 'iphone',
-    img: 'iPhone-11.webp',
+    img: 'newimgs/iPhone-11.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2011%20e%20falar%20com%20consultor',
     price : 810
   },
   {     
     name: 'Apple iPhone 11 Pro',
     brand: 'iphone',
-    img: 'iPhone-11-PRO.webp',
+    img: 'newimgs/iPhone-11-PRO.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2011%20Pro%20e%20falar%20com%20consultor',
     price: 1110
   },
   {     
     name: 'Apple iPhone 11 Pro Max',
     brand: 'iphone',
-    img: 'iPhone-11-PROMAX.webp',
+    img: 'newimgs/iPhone-11-PROMAX.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2011%20Pro%20Max%20e%20falar%20com%20consultor',
     price: 1210
   },
   {     
     name: 'Apple iPhone 12',
     brand: 'iphone',
-    img: 'iPhone-12.webp',
+    img: 'newimgs/iphone 12.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20e%20falar%20com%20consultor',
     price: 990
   },
   {     
     name: 'Apple iPhone 12 Mini',
     brand: 'iphone',
-    img: 'iPhone-12-MINI.webp',
+    img: 'newimgs/iphone 12 mini.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20Mini%20e%20falar%20com%20consultor',
     price: 720
   },
   {     
     name: 'Apple iPhone 12 Pro',
     brand: 'iphone',
-    img: 'iPhone-12-PRO.webp',
+    img: 'newimgs/iphone 12 pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20Pro%20e%20falar%20com%20consultor',
     price: 1080
   },
   {     
     name: 'Apple iPhone 12 Pro Max',
     brand: 'iphone',
-    img: 'iPhone-12-PROMAX.webp',
+    img: 'newimgs/iphone 12 pro max.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20Pro%20Max%20e%20falar%20com%20consultor',
     price: 1260
   },
   {     
     name: 'Apple Watch Series 1',
     brand: 'watch',
-    img: 'Apple-Watch-Series1.webp',
+    img: 'newimgs/Apple-Watch-Series1.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%201%20e%20falar%20com%20consultor',
     price: 410
   },
   {     
     name: 'Apple Watch Series 2',
     brand: 'watch',
-    img: 'Apple-Watch-Series2.webp',
+    img: 'newimgs/Apple-Watch-Series2.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%202%20e%20falar%20com%20consultor',
     price: 510
 
@@ -451,431 +451,431 @@ export const products = [
   {     
     name: 'Apple Watch Series 3',
     brand: 'watch',
-    img: 'Apple-Watch-Series3.webp',
+    img: 'newimgs/Apple-Watch-Series3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%203%20e%20falar%20com%20consultor',
     price: 610
   },
   {     
     name: 'Apple Watch Series 4',
     brand: 'watch',
-    img: 'Apple-Watch-Series4.webp',
+    img: 'newimgs/Apple-Watch-Series4.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%204%20e%20falar%20com%20consultor',
     price: 710
   },
   {     
     name: 'Apple Watch Series 5',
     brand: 'watch',
-    img: 'Apple-Watch-Series5.webp',
+    img: 'newimgs/Apple-Watch-Series5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%205%20e%20falar%20com%20consultor',
     price: 810
   },
   {     
     name: 'Ipad 2017',
     brand: 'ipad',
-    img: '2017.webp',
+    img: 'newimgs/2017.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%202017%20e%20falar%20com%20consultor',
     price: 470
   },
   {     
     name: 'Ipad 2018',
     brand: 'ipad',
-    img: '2018.webp',
+    img: 'newimgs/2018.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%202018%20e%20falar%20com%20consultor',
     price: 600
   },{     
     name: 'Ipad 4',
     brand: 'ipad',
-    img: 'ipad 4.webp',
+    img: 'newimgs/ipad 4.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%205%20e%20falar%20com%20consultor',
     price: "definir"
   },
   {     
     name: 'Ipad 5',
     brand: 'ipad',
-    img: 'ipad 5.webp',
+    img: 'newimgs/ipad 5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20%20e%20falar%20com%20consultor',
     price: 470
   },{     
     name: 'Ipad 6',
     brand: 'ipad',
-    img: 'ipad 6.webp',
+    img: 'newimgs/ipad 6.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%206%20e%20falar%20com%20consultor',
     price: 600
   },
   {     
     name: 'Ipad 7',
     brand: 'ipad',
-    img: 'ipad 7.webp',
+    img: 'newimgs/ipad 7.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%207%20e%20falar%20com%20consultor',
     price: 720
   },{     
     name: 'Ipad Mini 2',
     brand: 'ipad',
-    img: 'mini 2.webp',
+    img: 'newimgs/mini 2.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Mini%202%20e%20falar%20com%20consultor',
     price: 450
   },
   {     
     name: 'Ipad Mini 3',
     brand: 'ipad',
-    img: 'mini 3.webp',
+    img: 'newimgs/mini 3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20mini%203%20e%20falar%20com%20consultor',
     price: 450
   },{     
     name: 'Ipad Mini 4',
     brand: 'ipad',
-    img: 'mini 4.webp',
+    img: 'newimgs/mini 4.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Mini%204%20e%20falar%20com%20consultor',
     price: 530
   },
   {     
     name: 'Ipad Mini 5',
     brand: 'ipad',
-    img: 'mini 5.webp',
+    img: 'newimgs/mini 5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20mini%205%20e%20falar%20com%20consultor',
     price: 720
   },{     
     name: 'Ipad Pro 1 10.5',
     brand: 'ipad',
-    img: 'pro 1 10.5.webp',
+    img: 'newimgs/ipad pro 1 10.5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Pro1%2010.5%20e%20falar%20com%20consultor',
     price: 730
   },  {     
     name: 'Ipad Pro 1 12.9',
     brand: 'ipad',
-    img: 'pro 1 12.9.webp',
+    img: 'newimgs/ipad pro 1 12.9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Pro1%2012.9%20e%20falar%20com%20consultor',
     price: "definir"
   },{     
     name: 'Ipad Pro 9.7',
     brand: 'ipad',
-    img: 'pro-9.7.webp',
+    img: 'newimgs/pro 9.7.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%20Pro%209.7%20e%20falar%20com%20consultor',
     price: 710
   },
   {     
     name: 'REDMI-NOTE-10-4G',
     brand: 'xiaomi',
-    img: 'REDMI-NOTE-10-4G.webp',
+    img: 'newimgs/REDMI-NOTE-10-4G.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 10 4G%20e%20falar%20com%20consultor',
     price: 344
   },
   {     
     name: 'REDMI-NOTE-10-5G',
     brand: 'xiaomi',
-    img: 'REDMI-NOTE-10-5G.webp',
+    img: 'newimgs/REDMI-NOTE-10-5G.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 10 5G%20e%20falar%20com%20consultor',
     price: 368
   },{     
     name: 'REDMI-NOTE-9S',
     brand: 'xiaomi',
-    img: 'REDMI-NOTE-9S.webp',
+    img: 'newimgs/REDMI-NOTE-9S.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9S%20e%20falar%20com%20consultor',
     price: 336
   },
   {     
     name: 'redmi-note-9-pro-max',
     brand: 'xiaomi',
-    img: 'redmi-note-9-pro-max.webp',
+    img: 'newimgs/redmi-note-9-pro-max.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9 Pro max%20e%20falar%20com%20consultor',
     price: 336
   },{     
     name: 'redmi-note-9-pro',
     brand: 'xiaomi',
-    img: 'redmi-note-9-pro.webp',
+    img: 'newimgs/redmi-note-9-pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9 Pro%20e%20falar%20com%20consultor',
     price: 336
   },{     
     name: 'redmi-note-9',
     brand: 'xiaomi',
-    img: 'redmi-note-9.webp',
+    img: 'newimgs/redmi-note-9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20REDMI NOTE 9%20e%20falar%20com%20consultor',
     price: 240
   },
   {     
     name: 'mi 8 pro',
     brand: 'xiaomi',
-    img: 'mi 8 pro.webp',
+    img: 'newimgs/mi 8 pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI 8 PRO%20e%20falar%20com%20consultor',
     price: 368
   },{     
     name: 'mi 9',
     brand: 'xiaomi',
-    img: 'mi 9.webp',
+    img: 'newimgs/mi 9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9%20e%20falar%20com%20consultor',
     price: 288
   },
   {     
     name: 'mi 9 lite',
     brand: 'xiaomi',
-    img: 'mi 9 lite.webp',
+    img: 'newimgs/mi 9 lite.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9 lite%20e%20falar%20com%20consultor',
     price: 296
   },  {     
     name: 'mi 9t',
     brand: 'xiaomi',
-    img: 'mi 9t.webp',
+    img: 'newimgs/mi 9t.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9t%20e%20falar%20com%20consultor',
     price: 416
   },{     
     name: 'mi 9t pro',
     brand: 'xiaomi',
-    img: 'mi 9t pro.webp',
+    img: 'newimgs/mi 9t pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 9t pro%20e%20falar%20com%20consultor',
     price: 416
   },
   {     
     name: 'mi 10 lite',
     brand: 'xiaomi',
-    img: 'mi 10 lite.webp',
+    img: 'newimgs/mi 10 lite.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 10 lite%20e%20falar%20com%20consultor',
     price: 432
   },
   {     
     name: 'mi 10 edge 4g',
     brand: 'xiaomi',
-    img: 'mi 10 edge 4g.webp',
+    img: 'newimgs/mi 10 edge 4g.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 10 edge 4g%20e%20falar%20com%20consultor',
     price: 648
   },{     
     name: 'mi 10 pro edge',
     brand: 'xiaomi',
-    img: 'mi 10 pro edge.webp',
+    img: 'newimgs/mi 10 pro edge.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi 10 pro edge%20e%20falar%20com%20consultor',
     price: 880
   },{     
     name: 'MI 8',
     brand: 'xiaomi',
-    img: 'MI 8.webp',
+    img: 'newimgs/MI 8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI 8%20e%20falar%20com%20consultor',
     price: 240
   },
   {     
     name: 'MI 9SE',
     brand: 'xiaomi',
-    img: 'MI 9SE.webp',
+    img: 'newimgs/MI 9SE.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI 9SE%20e%20falar%20com%20consultor',
     price: 320
   },{     
     name: 'MI A3',
     brand: 'xiaomi',
-    img: 'MI A3.webp',
+    img: 'newimgs/MI A3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MI A3%20e%20falar%20com%20consultor',
     price: 280
   },{     
     name: 'mi max 3',
     brand: 'xiaomi',
-    img: 'mi max 3.webp',
+    img: 'newimgs/mi max 3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi max 3%20e%20falar%20com%20consultor',
     price: 240
   },
   {     
     name: 'mi max 3',
     brand: 'xiaomi',
-    img: 'mi max 3.webp',
+    img: 'newimgs/mi max 3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi max 3%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'mi note 10 edge',
     brand: 'xiaomi',
-    img: 'mi note 10 edge.webp',
+    img: 'newimgs/note 10 edge.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi note 10 edge%20e%20falar%20com%20consultor',
     price: 480
   },{     
     name: 'mi note 10 lite edge',
     brand: 'xiaomi',
-    img: 'mi note 10 lite edge.webp',
+    img: 'newimgs/note 10 lite edge.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi note 10 lite edge%20e%20falar%20com%20consultor',
     price: 424
   },{     
     name: 'mi note 10 pro edge',
     brand: 'xiaomi',
-    img: 'mi note 10 pro edge.webp',
+    img: 'newimgs/note 10 pro edge.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20mi note 10 pro edge%20e%20falar%20com%20consultor',
     price: 592
   },{     
     name: 'poco c3',
     brand: 'xiaomi',
-    img: 'poco c3.webp',
+    img: 'newimgs/poco c3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco c3%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'POCO M3',
     brand: 'xiaomi',
-    img: 'POCO M3.webp',
+    img: 'newimgs/POCO M3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20POCO M3%20e%20falar%20com%20consultor',
     price: 312
   },
   {     
     name: 'poco x3',
     brand: 'xiaomi',
-    img: 'poco x3.webp',
+    img: 'newimgs/poco x3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco x3%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'poco x3 nfc',
     brand: 'xiaomi',
-    img: 'poco x3 nfc.webp',
+    img: 'newimgs/poco x3 nfc.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco x3 nfc%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'poco x3 pro',
     brand: 'xiaomi',
-    img: 'poco x3 pro.webp',
+    img: 'newimgs/poco x3 pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20poco x3 pro%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'redmi 8t',
     brand: 'xiaomi',
-    img: 'redmi 8t.webp',
+    img: 'newimgs/redmi note 8t.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 8t%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'redmi 9',
     brand: 'xiaomi',
-    img: 'redmi 9.webp',
+    img: 'newimgs/redmi 9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'redmi 9a',
     brand: 'xiaomi',
-    img: 'redmi 9a.webp',
+    img: 'newimgs/redmi 9a.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9a%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'redmi 9c',
     brand: 'xiaomi',
-    img: 'redmi 9c.webp',
+    img: 'newimgs/redmi 9c.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9c%20e%20falar%20com%20consultor',
     price: 240
   },
   {     
     name: 'redmi 9i',
     brand: 'xiaomi',
-    img: 'redmi 9i.webp',
+    img: 'newimgs/redmi 9i.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi 9i%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'redmi note 6',
     brand: 'xiaomi',
-    img: 'redmi note 6.webp',
+    img: 'newimgs/redmi note 6.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 6%20e%20falar%20com%20consultor',
     price: "verificar"
   },{     
     name: 'redmi note 8',
     brand: 'xiaomi',
-    img: 'redmi note 8.webp',
+    img: 'newimgs/redmi note 8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8%20e%20falar%20com%20consultor',
     price: 256
   },
   {     
     name: 'redmi note 8 pro',
     brand: 'xiaomi',
-    img: 'redmi note 8 pro.webp',
+    img: 'newimgs/redmi note 8 pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8 pro%20e%20falar%20com%20consultor',
     price: 256
   },
   {     
     name: 'redmi note 8t',
     brand: 'xiaomi',
-    img: 'redmi note 8t.webp',
+    img: 'newimgs/redmi note 8t.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8t%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'redmi note 8t',
     brand: 'xiaomi',
-    img: 'redmi note 8t.webp',
+    img: 'newimgs/redmi note 8t.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20redmi note 8t%20e%20falar%20com%20consultor',
     price: 240
   },{     
-    name: 'moto-z-POWER',
+    name: 'moto z power',
     brand: 'motorola',
-    img: 'moto-z-POWER.webp',
+    img: 'newimgs/moto z power.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto z power%20e%20falar%20com%20consultor',
     price: 296
   },{     
-    name: 'moto-z',
+    name: 'moto z',
     brand: 'motorola',
-    img: 'moto-z.webp',
+    img: 'newimgs/MOTO Z.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto z%20e%20falar%20com%20consultor',
     price: 296
   },{     
     name: 'moto g8 plus',
     brand: 'motorola',
-    img: 'moto g8 plus.webp',
+    img: 'newimgs/moto g8 plus.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g8 plus%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'moto g8 power lite',
     brand: 'motorola',
-    img: 'moto g8 power lite.webp',
+    img: 'newimgs/moto g8 power lite.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g8 power lite%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'moto g9',
     brand: 'motorola',
-    img: 'moto g9.webp',
+    img: 'newimgs/moto g9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g9%20e%20falar%20com%20consultor',
     price: 312
   },{     
     name: 'moto g9 power',
     brand: 'motorola',
-    img: 'moto g9 power.webp',
+    img: 'newimgs/moto g9 power.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g9 power%20e%20falar%20com%20consultor',
     price: 312
   },{     
     name: 'moto g10',
     brand: 'motorola',
-    img: 'moto g10.webp',
+    img: 'newimgs/moto g10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g10%20e%20falar%20com%20consultor',
     price: 240
   },
   {     
     name: 'moto g20',
     brand: 'motorola',
-    img: 'moto g20.webp',
+    img: 'newimgs/moto g20.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g20%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'moto g30',
     brand: 'motorola',
-    img: 'moto g30.webp',
+    img: 'newimgs/moto g30.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto g30%20e%20falar%20com%20consultor',
     price: 240
   },{     
     name: 'MOTO G5',
     brand: 'motorola',
-    img: 'MOTO G5.webp',
+    img: 'newimgs/MOTO G5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MOTO G5%20e%20falar%20com%20consultor',
     price: 328
   },{     
     name: 'MOTO G5 plus',
     brand: 'motorola',
-    img: 'MOTO G5 plus.webp',
+    img: 'newimgs/moto g5 plus.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20MOTO G5 plus%20e%20falar%20com%20consultor',
     price: 328
   },{     
     name: 'moto one fusion',
     brand: 'motorola',
-    img: 'moto one fusion.webp',
+    img: 'newimgs/moto one fusion.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one fusion%20e%20falar%20com%20consultor',
     price: 360
   },{     
     name: 'moto one fusion plus',
     brand: 'motorola',
-    img: 'moto one fusion plus.webp',
+    img: 'newimgs/moto one fusion plus.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one fusion plus%20e%20falar%20com%20consultor',
     price: 368
   },{     
     name: 'moto one hyper',
     brand: 'motorola',
-    img: 'moto one hyper.webp',
+    img: 'newimgs/moto one hyper.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one hyper%20e%20falar%20com%20consultor',
     price: 288
   },{     
     name: 'moto one zoom',
     brand: 'motorola',
-    img: 'moto one zoom.webp',
+    img: 'newimgs/moto one zoom.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20moto one zoom%20e%20falar%20com%20consultor',
     price: 320
   },
@@ -889,8 +889,8 @@ export const depositions = [
     insta: '@elas_fit',
     instalink: 'https://www.instagram.com/elas_fit/',
     video: 'https://www.youtube.com/embed/WySyt477FU4',
-    img: 'Manuela-Cajado-img.webp',
-    imgvideo: 'Manuela-Cajado-imgvideo.webp',
+    img: 'newimgs/Manuela-Cajado-img.png',
+    imgvideo: 'Manuela-Cajado-imgvideo.png',
   },
   {     
     name: 'Luccas Tiberio',
@@ -899,8 +899,8 @@ export const depositions = [
     insta: '@luccastiberiooficial',
     instalink: 'https://www.instagram.com/luccastiberiooficial/',
     video: 'https://www.youtube.com/embed/H0soOYXEtf0',
-    img: 'Luccas-Tiberio-img.webp',
-    imgvideo: 'Luccas-Tiberio-imgvideo.webp',
+    img: 'newimgs/Luccas-Tiberio-img.png',
+    imgvideo: 'Luccas-Tiberio-imgvideo.png',
   },
   {     
     name: 'Ane Azevedo Riccó',
@@ -908,8 +908,8 @@ export const depositions = [
     insta: '@ane.ricco',
     instalink: 'https://www.instagram.com/ane.ricco/',
     video: 'https://www.youtube.com/embed/JbIdEjXDU_A',
-    img: 'Ane-Azevedo-img.webp',
-    imgvideo: 'Ane-Azevedo-imgvideo.webp',
+    img: 'newimgs/Ane-Azevedo-img.png',
+    imgvideo: 'Ane-Azevedo-imgvideo.png',
   },
   {     
     name: 'Isabella Motta',
@@ -917,8 +917,8 @@ export const depositions = [
     insta: '@iisabellamotta',
     instalink: 'https://www.instagram.com/iisabellamotta/',
     video: 'https://www.youtube.com/embed/A7eG8P1YFP0',
-    img: 'Isabella-Motta-img.webp',
-    imgvideo: 'Isabella-Motta-imgvideo.webp',
+    img: 'newimgs/Isabella-Motta-img.png',
+    imgvideo: 'Isabella-Motta-imgvideo.png',
   }
 ];
 
