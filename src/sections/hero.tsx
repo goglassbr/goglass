@@ -1,23 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import banner1 from '../source/banner-1.webp';
-import banner2 from '../source/banner-2.webp';
-import banner3 from '../source/banner-3.webp';
+import banner1 from '../source/capa-site-promoção.webp';
 
-const Wrapper = styled.div`
+const Wrapper = styled.img`
+  cursor: "pointer";
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 46px;
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   background-size: cover;
   background-position: center;
-  background-color: #888;
-  background-blend-mode: multiply;
 
   @media (max-width: 600px) {
-   height: 410px;
+   /* height: 410px; */
   }
 `;
 
@@ -106,7 +103,7 @@ const Button = styled.a`
 `;
 
 const Hero = () => {
-  const imgs = [banner1, banner2, banner3];
+  const imgs = [banner1];
   const [activeImg, setActiveImg] = React.useState(0);
 
   React.useEffect(() => {
@@ -128,8 +125,8 @@ const Hero = () => {
   };
 
   return (
-    <Wrapper style={{ backgroundImage: `url(${imgs[activeImg]})` }}>
-      <BannerText>
+    <Wrapper src={imgs[activeImg]} onClick={()=> window.location.href="#services"}>
+      {/* <BannerText>
         <h2>TRINCOU A TELA?</h2>
         <h3>Não deixe para depois!</h3>
         <Line></Line>
@@ -137,7 +134,7 @@ const Hero = () => {
           Economize até 70% na troca do seu vidro sem precisar sair de casa
         </h4>
         <Button href="#services">QUERO ECONOMIZAR!</Button>
-      </BannerText>
+      </BannerText> */}
     </Wrapper>
   );
 };
