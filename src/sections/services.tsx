@@ -311,18 +311,11 @@ const Button = styled.a`
 
 const Row = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   max-width: 300px;
   gap: 10px;
-  @media (max-width: 700px) {
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
 `;
 
 const Col = styled.div`
