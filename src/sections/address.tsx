@@ -109,12 +109,11 @@ const Address = () => {
         <h2>LOJA</h2>
         <span>Endereço</span>
         <h3>
-          Salvador Trade Center, Torre Norte, Sala 1905 - <br/>
-          Avenida Tancredo Neves, N° 1632, Caminho das Árvores, Salvador, CEP: 41.820-020
+        Shopping Sumaré, Nº 1506, <br/>Avenida Tancredo Neves, Caminho das Árvores, Salvador, CEP: 41.820-020
         </h3>
         <Line />
         <Frame>  
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.814296794868!2d-38.45588053517787!3d-12.983726440847892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b10049d63ef%3A0x5db7abe00761d876!2sSalvador%20Trade%20Center!5e0!3m2!1sen!2sbr!4v1639770967878!5m2!1sen!2sbr" width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8508621005303!2d-38.45786773517787!3d-12.981389090849442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b1a9483c6a7%3A0x43232c3d462f1920!2sShopping%20Sumar%C3%A9!5e0!3m2!1sen!2sbr!4v1643841621989!5m2!1sen!2sbr" width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} loading="lazy"></iframe>
         </Frame>
       </Column>
     </Wrapper>
