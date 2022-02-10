@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import banner1 from '../source/capa-site-promoção.webp';
+import banner1 from '../source/capa-site.webp';
 
 const Wrapper = styled.img`
   cursor: "pointer";
