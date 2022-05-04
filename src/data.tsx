@@ -4,161 +4,161 @@ export const products = [
     brand: 'samsung',
     img: 'newimgs/A01.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A01%20e%20falar%20com%20consultor',
-    price: 234
+    price: 208
   },
   {     
     name: 'Samsung Galaxy A5',
     brand: 'samsung',
     img: 'newimgs/A5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A5%20e%20falar%20com%20consultor',
-    price: 324
+    price: 288
   },
   {     
     name: 'Samsung Galaxy A6',
     brand: 'samsung',
     img: 'newimgs/A6.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A6%20e%20falar%20com%20consultor',
-    price: 324
+    price: 252
   },
   {     
     name: 'Samsung Galaxy A6 Plus',
     brand: 'samsung',
     img: 'newimgs/A6-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A6%20Plus%20e%20falar%20com%20consultor',
-    price: 324
+    price: 252
   },
   {     
     name: 'Samsung Galaxy A7',
     brand: 'samsung',
     img: 'newimgs/A7.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A7%20e%20falar%20com%20consultor',
-    price: 324
+    price: 252
   },
   {     
     name: 'Samsung Galaxy A8',
     brand: 'samsung',
     img: 'newimgs/A8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A8%20e%20falar%20com%20consultor',
-    price: 324
+    price: 280
   },
   {     
     name: 'Samsung Galaxy A8 Plus',
     brand: 'samsung',
     img: 'newimgs/A8-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A8%20Plus%20e%20falar%20com%20consultor',
-    price: 324
+    price: 252
   },
   {     
     name: 'Samsung Galaxy A9',
     brand: 'samsung',
     img: 'newimgs/A9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A9%20e%20falar%20com%20consultor',
-    price: 396
+    price: 308
   },
   {     
     name: 'Samsung Galaxy A9 Pro',
     brand: 'samsung',
     img: 'newimgs/A9-PRO.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A9%20Pro%20e%20falar%20com%20consultor',
-    price: 396
+    price: 308
   },
   {     
     name: 'Samsung Galaxy A10',
     brand: 'samsung',
     img: 'newimgs/A10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A10%20e%20falar%20com%20consultor',
-    price: 252
+    price: 224
   },
   {     
     name: 'Samsung Galaxy A10s',
     brand: 'samsung',
     img: 'newimgs/A10s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A10s%20e%20falar%20com%20consultor',
-    price: 252
+    price: 224
   },
   {     
     name: 'Samsung Galaxy A11',
     brand: 'samsung',
     img: 'newimgs/A11.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A11%20e%20falar%20com%20consultor',
-    price: 270
+    price: 240
   },
   {     
     name: 'Samsung Galaxy A20',
     brand: 'samsung',
     img: 'newimgs/A20.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A20%20e%20falar%20com%20consultor',
-    price: 306
+    price: 272
   },
   {     
     name: 'Samsung Galaxy A20s',
     brand: 'samsung',
     img: 'newimgs/A20s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A20s%20e%20falar%20com%20consultor',
-    price: 306
+    price: 272
   },
   {     
     name: 'Samsung Galaxy A21s',
     brand: 'samsung',
     img: 'newimgs/A21s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A21s%20e%20falar%20com%20consultor',
-    price: 270
+    price: 240
   },
   {     
     name: 'Samsung Galaxy A30',
     brand: 'samsung',
     img: 'newimgs/A30.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A30%20e%20falar%20com%20consultor',
-    price: 270
+    price: 240
   },
   {     
     name: 'Samsung Galaxy A30s',
     brand: 'samsung',
     img: 'newimgs/A30s.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A30s%20e%20falar%20com%20consultor',
-    price: 270
+    price: 288
   },
   {     
     name: 'Samsung Galaxy A31',
     brand: 'samsung',
     img: 'newimgs/A31.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A31%20e%20falar%20com%20consultor',
-    price: 315
+    price: 280
   },
   {     
     name: 'Samsung Galaxy A50',
     brand: 'samsung',
     img: 'newimgs/A50.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A50%20e%20falar%20com%20consultor',
-    price: 324
+    price: 288
   },
   {     
     name: 'Samsung Galaxy A51',
     brand: 'samsung',
     img: 'newimgs/A51.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A51%20e%20falar%20com%20consultor',
-    price: 360
+    price: 320
   },
   {     
     name: 'Samsung Galaxy A70',
     brand: 'samsung',
     img: 'newimgs/A70.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A70%20e%20falar%20com%20consultor',
-    price: 387
+    price: 344
   },
   {     
     name: 'Samsung Galaxy A71',
     brand: 'samsung',
     img: 'newimgs/A71.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A71%20e%20falar%20com%20consultor',
-    price: 396
+    price: 352
   },
   {     
     name: 'Samsung Galaxy A80',
     brand: 'samsung',
     img: 'newimgs/A80.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20A80%20e%20falar%20com%20consultor',
-    price: 459
+    price: 357
   },
   {     
     name: 'Samsung Galaxy S7 Flat',
@@ -172,56 +172,56 @@ export const products = [
     brand: 'samsung',
     img: 'newimgs/S8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S8%20e%20falar%20com%20consultor',
-    price: 459
+    price: 357
   },
   {     
     name: 'Samsung Galaxy S8 Plus',
     brand: 'samsung',
     img: 'newimgs/S8-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S8%20Plus%20e%20falar%20com%20consultor',
-    price: 504
+    price: 392
   },
   {     
     name: 'Samsung Galaxy S9',
     brand: 'samsung',
     img: 'newimgs/S9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S9%20e%20falar%20com%20consultor',
-    price: 594
+    price: 528
   },
   {     
     name: 'Samsung Galaxy S9 Plus',
     brand: 'samsung',
     img: 'newimgs/S9-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S9%20Plus%20e%20falar%20com%20consultor',
-    price: 630
+    price: 560
   },
   {     
     name: 'Samsung Galaxy S10',
     brand: 'samsung',
     img: 'newimgs/S10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10%20e%20falar%20com%20consultor',
-    price: 729
+    price: 648
   },
   {     
     name: 'Samsung Galaxy S10e',
     brand: 'samsung',
     img: 'newimgs/S10e.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10e%20e%20falar%20com%20consultor',
-    price: 549
+    price: 488
   },
   {     
     name: 'Samsung Galaxy S10 Lite',
     brand: 'samsung',
     img: 'newimgs/S10 lite.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10%20Lite%20e%20falar%20com%20consultor',
-    price: 720
+    price: 640
   },
   {     
     name: 'Samsung Galaxy S10 Plus',
     brand: 'samsung',
     img: 'newimgs/S10-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S10%20Plus%20e%20falar%20com%20consultor',
-    price: 819
+    price: 728
   },
   {     
     name: 'Samsung Galaxy S20',
@@ -256,49 +256,49 @@ export const products = [
     brand: 'samsung',
     img: 'newimgs/Note-8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%208%20e%20falar%20com%20consultor',
-    price: 568
+    price: 497
   },
   {     
     name: 'Samsung Galaxy Note 9',
     brand: 'samsung',
     img: 'newimgs/Note-9.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%209%20e%20falar%20com%20consultor',
-    price: 608
+    price: 532
   },
   {     
     name: 'Samsung Galaxy Note 10',
     brand: 'samsung',
     img: 'newimgs/Note-10.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2010%20e%20falar%20com%20consultor',
-    price: 648
+    price: 567
   },
   {     
     name: 'Samsung Galaxy Note 10 Lite',
     brand: 'samsung',
     img: 'newimgs/Note-10-LITE.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2010%20Lite%20e%20falar%20com%20consultor',
-    price: 648
+    price: 567
   },
   {     
     name: 'Samsung Galaxy Note 10 Plus',
     brand: 'samsung',
     img: 'newimgs/Note-10-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2010%20Plus%20e%20falar%20com%20consultor',
-    price: 728
+    price: 637
   },
   {     
     name: 'Samsung Galaxy Note 20',
     brand: 'samsung',
     img: 'newimgs/note 20.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2020%20e%20falar%20com%20consultor',
-    price: 960
+    price: 840
   },
   {     
     name: 'Samsung Galaxy Note 20 Ultra',
     brand: 'samsung',
     img: 'newimgs/note 20 ultra.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20Note%2020%20Ultra%20e%20falar%20com%20consultor',
-    price: 1040
+    price: 910
   },
   {     
     name: 'Apple iPhone 6',
@@ -347,105 +347,105 @@ export const products = [
     brand: 'iphone',
     img: 'newimgs/iPhone-8.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%208%20e%20falar%20com%20consultor',
-    price: 360
+    price: 324
   },
   {     
     name: 'Apple iPhone 8 Plus',
     brand: 'iphone',
     img: 'newimgs/iPhone-8-PLUS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%208%20Plus%20e%20falar%20com%20consultor',
-    price: 410
+    price: 369
   },
   {     
     name: 'Apple iPhone X',
     brand: 'iphone',
     img: 'newimgs/iPhone-X.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20X%20e%20falar%20com%20consultor',
-    price: 660
+    price: 594
   },
   {     
     name: 'Apple iPhone Xr',
     brand: 'iphone',
     img: 'newimgs/iPhone-XR.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20Xr%20e%20falar%20com%20consultor',
-    price: 710
+    price: 639
   },
   {     
     name: 'Apple iPhone Xs',
     brand: 'iphone',
     img: 'newimgs/iPhone-XS.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20Xs%20e%20falar%20com%20consultor',
-    price: 760
+    price: 684
   },
   {     
     name: 'Apple iPhone Xs Max',
     brand: 'iphone',
     img: 'newimgs/iPhone-XS-MAX.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%20Xs%20Max%20e%20falar%20com%20consultor',
-    price: 860
+    price: 774
   },
   {     
     name: 'Apple iPhone 11',
     brand: 'iphone',
     img: 'newimgs/iPhone-11.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2011%20e%20falar%20com%20consultor',
-    price : 810
+    price : 729
   },
   {     
     name: 'Apple iPhone 11 Pro',
     brand: 'iphone',
     img: 'newimgs/iPhone-11-PRO.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2011%20Pro%20e%20falar%20com%20consultor',
-    price: 1110
+    price: 990
   },
   {     
     name: 'Apple iPhone 11 Pro Max',
     brand: 'iphone',
     img: 'newimgs/iPhone-11-PROMAX.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2011%20Pro%20Max%20e%20falar%20com%20consultor',
-    price: 1210
+    price: 1089
   },
   {     
     name: 'Apple iPhone 12',
     brand: 'iphone',
     img: 'newimgs/iphone 12.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20e%20falar%20com%20consultor',
-    price: 990
+    price: 880
   },
   {     
     name: 'Apple iPhone 12 Mini',
     brand: 'iphone',
     img: 'newimgs/iphone 12 mini.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20Mini%20e%20falar%20com%20consultor',
-    price: 720
+    price: 640
   },
   {     
     name: 'Apple iPhone 12 Pro',
     brand: 'iphone',
     img: 'newimgs/iphone 12 pro.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20Pro%20e%20falar%20com%20consultor',
-    price: 1080
+    price: 960
   },
   {     
     name: 'Apple iPhone 12 Pro Max',
     brand: 'iphone',
     img: 'newimgs/iphone 12 pro max.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2012%20Pro%20Max%20e%20falar%20com%20consultor',
-    price: 1260
+    price: 1120
   },
   {     
     name: 'Apple Watch Series 1',
     brand: 'watch',
     img: 'newimgs/Apple-Watch-Series1.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%201%20e%20falar%20com%20consultor',
-    price: 410
+    price: 369
   },
   {     
     name: 'Apple Watch Series 2',
     brand: 'watch',
     img: 'newimgs/Apple-Watch-Series2.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%202%20e%20falar%20com%20consultor',
-    price: 510
+    price: 459
 
   },
   {     
@@ -453,21 +453,21 @@ export const products = [
     brand: 'watch',
     img: 'newimgs/Apple-Watch-Series3.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%203%20e%20falar%20com%20consultor',
-    price: 610
+    price: 549
   },
   {     
     name: 'Apple Watch Series 4',
     brand: 'watch',
     img: 'newimgs/Apple-Watch-Series4.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%204%20e%20falar%20com%20consultor',
-    price: 710
+    price: 639
   },
   {     
     name: 'Apple Watch Series 5',
     brand: 'watch',
     img: 'newimgs/Apple-Watch-Series5.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20Watch%20Series%205%20e%20falar%20com%20consultor',
-    price: 810
+    price: 729
   },
   {     
     name: 'Ipad 2017',
