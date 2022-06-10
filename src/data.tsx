@@ -161,6 +161,34 @@ export const products = [
     price: 357
   },
   {     
+    name: 'Samsung Galaxy M31',
+    brand: 'samsung',
+    img: 'newimgs/M31.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20M31%20e%20falar%20com%20consultor',
+    price: 300
+  },
+  {     
+    name: 'Samsung Galaxy M32',
+    brand: 'samsung',
+    img: 'newimgs/M32.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20M32%20e%20falar%20com%20consultor',
+    price: 300
+  },
+  {     
+    name: 'Samsung Galaxy M52',
+    brand: 'samsung',
+    img: 'newimgs/M52.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20M52%20e%20falar%20com%20consultor',
+    price: 400
+  },
+  {     
+    name: 'Samsung Galaxy M62',
+    brand: 'samsung',
+    img: 'newimgs/M62.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20M62%20e%20falar%20com%20consultor',
+    price: 450
+  },
+  {     
     name: 'Samsung Galaxy S7 Flat',
     brand: 'samsung',
     img: 'newimgs/S7-FLAT.png',
@@ -250,6 +278,27 @@ export const products = [
     img: 'newimgs/S20-ULTRA.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S20%20Ultra%20e%20falar%20com%20consultor',
     price: 943
+  },
+  {     
+    name: 'Samsung Galaxy S21',
+    brand: 'samsung',
+    img: 'newimgs/S21.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S21%20e%20falar%20com%20consultor',
+    price: 943
+  },
+  {     
+    name: 'Samsung Galaxy S21 Plus',
+    brand: 'samsung',
+    img: 'newimgs/S21-PLUS.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S21%20Plus%20e%20falar%20com%20consultor',
+    price: 1028.50
+  },
+  {     
+    name: 'Samsung Galaxy S21 Ultra',
+    brand: 'samsung',
+    img: 'newimgs/S21-ULTRA.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Samsung%20Galaxy%20S21%20Ultra%20e%20falar%20com%20consultor',
+    price: 1113.50
   },
   {     
     name: 'Samsung Galaxy Note 8',
@@ -434,6 +483,34 @@ export const products = [
     price: 1120
   },
   {     
+    name: 'Apple iPhone 13',
+    brand: 'iphone',
+    img: 'newimgs/iPhone-13.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2013%20e%20falar%20com%20consultor',
+    price: 1080
+  },
+  {     
+    name: 'Apple iPhone 13 Mini',
+    brand: 'iphone',
+    img: 'newimgs/iPhone-13-MINI.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2013%20Mini%20e%20falar%20com%20consultor',
+    price: 990
+  },
+  {     
+    name: 'Apple iPhone 13 Pro',
+    brand: 'iphone',
+    img: 'newimgs/iPhone-13-PRO.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2013%20Pro%20e%20falar%20com%20consultor',
+    price: 1260
+  },
+  {     
+    name: 'Apple iPhone 13 Pro Max',
+    brand: 'iphone',
+    img: 'newimgs/iPhone-13-PROMAX.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Apple%20iPhone%2013%20Pro%20Max%20e%20falar%20com%20consultor',
+    price: 1440
+  },
+  {     
     name: 'Apple Watch Series 1',
     brand: 'watch',
     img: 'newimgs/Apple-Watch-Series1.png',
@@ -508,7 +585,15 @@ export const products = [
     img: 'newimgs/ipad 7.png',
     link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%207%20e%20falar%20com%20consultor',
     price: 720
-  },{     
+  },
+  {     
+    name: 'Ipad 8',
+    brand: 'ipad',
+    img: 'newimgs/ipad 8.png',
+    link: 'https://api.whatsapp.com/send?phone=557197166900&text=Ol%C3%A1,%20quero%20consultar%20valores%20do%20Ipad%208%20e%20falar%20com%20consultor',
+    price: 830
+  },
+  {     
     name: 'Ipad Mini 2',
     brand: 'ipad',
     img: 'newimgs/mini 2.png',
