@@ -10,6 +10,7 @@ import { ToastContainer} from 'react-toastify';
 import { useRealmApp } from './providers/realm';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Concorra from './screens/concorra';
+import Franquia from './screens/franquia';
 
 const Operation = lazy(() => import('./sections/operation'));
 const Depositions = lazy(() => import('./sections/depositions'));
@@ -61,6 +62,7 @@ const GoglassPage = () => {
           </div>
         </Route>
         <Route path='/concorra' component={Concorra}/>
+        <Route path='/franquia' component={Franquia}/>
       </Switch>
     </Router>
     </>
