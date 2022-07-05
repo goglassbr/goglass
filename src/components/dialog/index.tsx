@@ -53,9 +53,9 @@ const Description = styled.div`
   }
 
   margin-top: 8px;
-  color: #828282;
+  color: #383838;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
 `;
 
 const ImgNoSubtitle = styled.img`
@@ -74,6 +74,7 @@ type Props = {
   onConfirmText?: string;
   onCancelText?: string;
   subtitle?: boolean;
+  theme?: string;
 };
 
 export default function AlertDialog({
@@ -85,7 +86,8 @@ export default function AlertDialog({
   onConfirm,
   onConfirmText,
   onCancelText,
-  subtitle
+  subtitle,
+  theme,
 }: Props) {
   const [open, setOpen] = React.useState(false);
   const handleClose = () => {
@@ -128,7 +130,7 @@ export default function AlertDialog({
         <Button
           onClick={onConfirm}
           style={{ marginBottom: 14, fontWeight: 700 }}
-          theme="salmon"
+          theme={theme ? theme : "salmon"}
           fullWidth
         >
           {onConfirmText}

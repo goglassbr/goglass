@@ -6,6 +6,7 @@ import { FiMenu } from 'react-icons/fi';
 import { IoMdClose } from 'react-icons/io';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { createFormResult } from '../../services/form';
+import Dialog from '../../components/dialog'
 
 const Wrapper = styled.div`
   display: flex;
@@ -1345,7 +1346,7 @@ const Franquia: React.FC  = () => {
         </div>
       )}
       {isMobile &&
-        <div style={{ display: formsection ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '27.78vw', position: 'fixed', bottom: 0, zIndex: 1000, background: 'linear-gradient(180deg, rgba(0, 234, 223, 0.65) 0%, rgba(2, 202, 192, 0.65) 100%)' }}>
+        <div style={{ display: formsection ? 'none' : 'flex', justifyContent: 'center', alignItems: 'center', width: '100vw', height: '27.78vw', position: 'fixed', bottom: 0, zIndex: 1000, background: 'linear-gradient(180deg, rgba(0, 234, 223, 0.65) 0%, rgba(2, 202, 192, 0.65) 100%)', filter: menuOpen ? 'brightness(50%)' : '' }}>
           <HeaderButton href="#form">Seja um Franqueado</HeaderButton>
         </div>
       }
@@ -1433,6 +1434,23 @@ const Franquia: React.FC  = () => {
         </FormSection>
         <Footer isMobile={isMobile}/>
       </Wrapper>
+      {
+        isOpen&&
+        <Dialog
+            text="Dados enviados!"
+            description="A Goglass agradece o interesse e em breve entraremos em contato!"
+            isOpen={isOpen}
+            onConfirmText='Voltar'
+            theme="blueshock"
+            onClose={() => {
+              setIsOpen(false)
+            }
+            }
+            onConfirm={()=> {
+              setIsOpen(false)
+            }}
+          />
+      }
     </div>
   );
 }

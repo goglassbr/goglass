@@ -81,6 +81,11 @@ const theme: ThemeProps = {
     color: '#d05ad4',
     backgroundColor: '#FFFFFF',
     border: '',
+  },
+  'blueshock': {
+    color: '#000',
+    backgroundColor: '#00eadf',
+    border: '',
   }
 };
 
