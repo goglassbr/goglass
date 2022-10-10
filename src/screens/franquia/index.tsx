@@ -869,7 +869,7 @@ const FormImg = styled.img`
     align-self: start;
     width: 130vw;
     height: auto;
-    margin: 5vw 0 -10vw -13vw;
+    margin: 5vw 0 -10vw -13.5vw;
   }
 `;
 
