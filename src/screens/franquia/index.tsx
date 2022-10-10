@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { states, cities } from './data';
-import { FaPlay } from 'react-icons/fa';
+import { FaPlay, FaTimes } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
 import { IoMdClose } from 'react-icons/io';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -99,10 +99,11 @@ const BannerSection = styled.div`
   background-repeat: no-repeat;
   width: 100vw;
   height: 51.39vw;
-  
+  overflow: hidden;
+
   @media screen and (max-width: 764px){
     flex-direction: column;
-    height: 203.05vw;
+    height: 223.05vw;
     background-image: url('imgs/BG-mobile.webp');
   }
 ` 
@@ -184,16 +185,16 @@ const VideoButton = styled.div`
 `
 
 const ImgBanner = styled.img`
-  width: 55.76vw;
-  height: 50.97vw;
-  margin: 8.03vw 3.40vw 0 0;
+  width: 48vw;
+  height: 72vw;
+  margin: -1.5vw 0 0 0;
   z-index: 2;
-  content:url("imgs/foto-banner.webp");
+  content:url("imgs/img-banner.webp");
   
   @media screen and (max-width: 764px){
-    height: 131.11vw;
-    width: 143.48vw;
-    margin: 0 0 -33.89vw -19.44vw;
+    height: auto;
+    width: 115vw;
+    margin: -10vw 0 0 -7.5vw;
   }
 `
 
@@ -226,7 +227,7 @@ const ReasonsImg = styled.img`
   content:url("imgs/foto2.webp");
   
   @media screen and (max-width: 764px){
-    margin: 26.04vw 0 7.5vw 8.33vw;
+    margin: 18.04vw 0 7.5vw 8.33vw;
     width: 65vw;
     height: 79.33vw;
   }
@@ -640,11 +641,12 @@ const FormSection = styled.div`
   @media screen and (max-width: 764px){
     background-image: url("imgs/form-bg-mobile.webp");
     height: 340vw;
+    overflow: hidden;
   }
 `
 
 const FormRow = styled.div`
-  margin: 0 13.75vw 0 11.04vw;
+  margin: 0 12.57vw 0 12.57vw;
   width: 75.21vw;
   height: 58.26vw;
   display: flex;
@@ -667,7 +669,7 @@ const Form = styled.div`
   background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.4) 1.57%, rgba(196, 196, 196, 0.05) 100%);
   backdrop-filter: blur(60px);
   border-radius: 1.875vw;
-  margin-left: -1.32vw;
+  margin-left: -5.765vw;
   width: 35.625vw;
   height: 53.54vw;
   padding: 3.33vw 2.5vw 2.29vw 2.99vw;
@@ -855,14 +857,71 @@ const FooterSection = styled.div`
     padding: 25.55vw 10vw 4.44vw 10vw;
   }
 `
+
+const FormImg = styled.img`
+  z-index: 2;
+  align-self: end;
+  width: 50vw;
+  height: auto;
+  margin: 0 0 -20vw -5vw;
+  
+  @media screen and (max-width: 764px) {
+    align-self: start;
+    width: 130vw;
+    height: auto;
+    margin: 5vw 0 -10vw -13vw;
+  }
+`;
+
+const Modal = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #111111eb;
+`;
+
+const Frame = styled.div`
+  width: 1120px;
+  height: 630px;
+
+  @media (max-width: 1260px) {
+    width: 80vw;
+    height: 45vw;
+  }
+
+  @media (max-width: 600px) {
+    width: 100vw;
+    height: 56.25vw;
+  }
+`;
+
 type Props = {
   isMobile: boolean;
 };
 
 const Banner:React.FC<Props> = ({isMobile}) => {
 
+  const [videoOpen, setVideoOpen] = React.useState(false);
+
   return (
     <BannerSection>
+      {videoOpen &&
+        <Modal>
+          <FaTimes onClick={() => setVideoOpen(!videoOpen)} size="35px" color="#555" style={{ position: 'fixed', top: 20, right: 20, cursor: 'pointer' }}/>
+          <Frame>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2Qvqbidj-6U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </Frame>
+        </Modal>
+      }
       <TextBanner>
         <TitleBanner>
           Ganhe dinheiro<br/>com uma franquia<br/><div style={{color: '#383838'}}>simples, barata e<br/>lucrativa!</div>
@@ -871,7 +930,7 @@ const Banner:React.FC<Props> = ({isMobile}) => {
           Fature até R$80mil com a única franquia especializada em reparo de tela de smartphones
           do Brasil!
         </SubtitleBanner>
-        <VideoButton>
+        <VideoButton onClick={() => setVideoOpen(true)}>
           <FaPlay style={{color: '#fff', marginRight: isMobile ? 7 : 9, width: isMobile ? '2.83vw' : '0.98vw', height: isMobile ? '3.94vw' : '1.37vw' }}/><span style={{ marginTop: 2 }}>ASSISTIR AO VÍDEO</span>
         </VideoButton>
       </TextBanner>
@@ -1303,7 +1362,6 @@ const Franquia: React.FC  = () => {
   const [state, setState] = React.useState('');
   const [city, setCity] = React.useState('');
   const [isOpen, setIsOpen] = React.useState(false);
-
   const [submited, setSubmited] = React.useState(false);
   
   const handleSubmit = async () => {
@@ -1375,7 +1433,7 @@ const Franquia: React.FC  = () => {
             {isMobile ? <>Converse<br/>diretamente com<br/>nosso fundador e tire<br/>todas suas dúvidas!</> : <>Converse diretamente com nosso fundador e tire todas suas dúvidas!</>}
           </SectionsTitle>
           <FormRow>
-            <img src='imgs/form-img.webp' style={{ zIndex: 2, alignSelf: isMobile ? 'start' : 'end', width: isMobile ? '113.33vw' : '40.76vw', height: isMobile ? '137.85vw' : '49.58vw' }}/>
+            <FormImg src='imgs/img-form.webp'/>
             <Form>
               <Label>
                 Nome Completo
@@ -1430,7 +1488,7 @@ const Franquia: React.FC  = () => {
               </Button>
             </Form>
           </FormRow>
-          {!isMobile && <img src='imgs/tabela.webp' style={{ boxShadow: '0px 45px 113px rgba(0, 0, 0, 0.06), 0px 23px 49px rgba(0, 0, 0, 0.0405), 0px 9px 18px rgba(0, 0, 0, 0.03), 0px 2px 6px rgba(0, 0, 0, 0.0195)', width: '69.86vw', height: '28.20vw', marginBottom: '-10.63vw' }}/>}
+          {!isMobile && <img src='imgs/tabela.webp' style={{ boxShadow: '0px 45px 113px rgba(0, 0, 0, 0.06), 0px 23px 49px rgba(0, 0, 0, 0.0405), 0px 9px 18px rgba(0, 0, 0, 0.03), 0px 2px 6px rgba(0, 0, 0, 0.0195)', width: '69.86vw', height: '28.20vw', marginBottom: '-10.63vw', alignSelf: 'center', zIndex: 3 }}/>}
         </FormSection>
         <Footer isMobile={isMobile}/>
       </Wrapper>
