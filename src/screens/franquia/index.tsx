@@ -1429,7 +1429,7 @@ const Franquia: React.FC  = () => {
         <NumbersAndModel isMobile={isMobile}/>
         <Process isMobile={isMobile}/>
         <FormSection id="form">
-          <SectionsTitle style={{ margin: isMobile ? '10.83vw 8.33vw 8.61vw 8.33vw' : '5.07vw 25.69vw 2.43vw 25.69vw', color: '#DAFFFD', textAlign: 'center', fontSize: isMobile ? '7.22vw' : '' }}>
+          <SectionsTitle style={{ margin: isMobile ? '10.83vw 8.33vw 20.61vw 8.33vw' : '5.07vw 25.69vw 2.43vw 25.69vw', color: '#DAFFFD', textAlign: 'center', fontSize: isMobile ? '7.22vw' : '' }}>
             {isMobile ? <>Converse<br/>diretamente com<br/>nosso fundador e tire<br/>todas suas dúvidas!</> : <>Converse diretamente com nosso fundador e tire todas suas dúvidas!</>}
           </SectionsTitle>
           <FormRow>
