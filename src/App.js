@@ -51,14 +51,14 @@ const GoglassPage = () => {
             <Hero/>
             <Services/>
             <Suspense fallback={<div>Loading...</div>}>
-              <Operation/>
               <Depositions/>
+              <Operation/>
               <Address/>
               <FAQ/>
             </Suspense>
             <Footer/>
             {/* <PopUpSorteio/> */}
-            <ToastContainer/>      
+            <ToastContainer/>  
           </div>
         </Route>
         <Route path='/concorra' component={Concorra}/>

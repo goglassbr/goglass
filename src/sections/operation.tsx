@@ -190,7 +190,7 @@ const Button = styled.a`
   padding: 10px 15px 5px 15px;
   height: 28px;
   width: 219px;
-  background-color: #e21c21;
+  background-color: #34af23;
   transition: all 0.35s ease-in-out;
   border-radius: 30px;
 

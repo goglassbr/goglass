@@ -974,8 +974,8 @@ export const depositions = [
     insta: '@elas_fit',
     instalink: 'https://www.instagram.com/elas_fit/',
     video: 'https://www.youtube.com/embed/WySyt477FU4',
-    img: 'newimgs/Manuela-Cajado-img.png',
-    imgvideo: 'Manuela-Cajado-imgvideo.png',
+    img: 'Manuela-Cajado-img.webp',
+    imgvideo: 'Manuela-Cajado-imgvideo.webp',
   },
   {     
     name: 'Luccas Tiberio',
@@ -984,8 +984,8 @@ export const depositions = [
     insta: '@luccastiberiooficial',
     instalink: 'https://www.instagram.com/luccastiberiooficial/',
     video: 'https://www.youtube.com/embed/H0soOYXEtf0',
-    img: 'newimgs/Luccas-Tiberio-img.png',
-    imgvideo: 'Luccas-Tiberio-imgvideo.png',
+    img: 'Luccas-Tiberio-img.webp',
+    imgvideo: 'Luccas-Tiberio-imgvideo.webp',
   },
   {     
     name: 'Ane Azevedo Riccó',
@@ -993,8 +993,8 @@ export const depositions = [
     insta: '@ane.ricco',
     instalink: 'https://www.instagram.com/ane.ricco/',
     video: 'https://www.youtube.com/embed/JbIdEjXDU_A',
-    img: 'newimgs/Ane-Azevedo-img.png',
-    imgvideo: 'Ane-Azevedo-imgvideo.png',
+    img: 'Ane-Azevedo-img.webp',
+    imgvideo: 'Ane-Azevedo-imgvideo.webp',
   },
   {     
     name: 'Isabella Motta',
@@ -1002,8 +1002,8 @@ export const depositions = [
     insta: '@iisabellamotta',
     instalink: 'https://www.instagram.com/iisabellamotta/',
     video: 'https://www.youtube.com/embed/A7eG8P1YFP0',
-    img: 'newimgs/Isabella-Motta-img.png',
-    imgvideo: 'Isabella-Motta-imgvideo.png',
+    img: 'Isabella-Motta-img.webp',
+    imgvideo: 'Isabella-Motta-imgvideo.webp',
   }
 ];
 

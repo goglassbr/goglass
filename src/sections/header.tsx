@@ -106,7 +106,7 @@ const Button = styled.a`
   cursor: pointer;
   padding: 7px 20px 3px 20px;
   height: 27px;
-  background-color: #e21c21;
+  background-color: #34af23;
   transition: all 0.35s ease-in-out;
   border-radius: 30px;
 
@@ -205,7 +205,6 @@ const MenuContent = styled.a`
   margin: 0 0 0 30px;
   font-size: 16px;
   font-weight: 900;
-  color: #fff;
   text-align: center;
   cursor: pointer;
 
@@ -270,7 +269,10 @@ const Header = () => {
             (71) 9716-6900
           </NumberWrapper>
         </SocialWrapper>
-        <Button id="wppurl" onClick={() => (window.location.href = "https://api.whatsapp.com/send?phone=557197166900")}>Faça já seu orçamento!</Button>
+        <Button id="wppurl" onClick={() => (window.location.href = "https://api.whatsapp.com/send?phone=557197166900")}>
+          <FaWhatsapp size={window.innerWidth < 768 ? "32px" : "22px"} color="#fff" style={{margin: window.innerWidth < 768 ? '0 0 3px 0' : '0 5px 3px 0'}}/>
+          Faça já seu orçamento!
+        </Button>
       </HeaderWrapper>
       <Row style={scroll > 50 ? { paddingTop: 0, paddingBottom: 0 } : {}}>
         <GoglassLogo src={goglassLogo} style={scroll > 50 ? { width: 120 } : {}}/>
@@ -278,11 +280,11 @@ const Header = () => {
         {open && <Darker/>}
         <MenuWrapper open={open}>
           <Close onClick={() => setOpen(!open)}/>
-          <MenuContent href="#services">SERVIÇOS E VALORES</MenuContent>
-          <MenuContent href="#operation">COMO FUNCIONA</MenuContent>
-          <MenuContent href="#depositions">DEPOIMENTOS</MenuContent>
-          <MenuContent href="#address">LOJA</MenuContent>
-          <MenuContent href="#faq">FAQ</MenuContent>
+          <MenuContent style={scroll > 50 ? {color: '#fff'} : {color: '#000'}} href="#services">SERVIÇOS E VALORES</MenuContent>
+          <MenuContent style={scroll > 50 ? {color: '#fff'} : {color: '#000'}} href="#operation">COMO FUNCIONA</MenuContent>
+          <MenuContent style={scroll > 50 ? {color: '#fff'} : {color: '#000'}} href="#depositions">DEPOIMENTOS</MenuContent>
+          <MenuContent style={scroll > 50 ? {color: '#fff'} : {color: '#000'}} href="#address">LOJA</MenuContent>
+          <MenuContent style={scroll > 50 ? {color: '#fff'} : {color: '#000'}} href="#faq">FAQ</MenuContent>
         </MenuWrapper>
       </Row>
     </Wrapper>

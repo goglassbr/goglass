@@ -295,8 +295,7 @@ const Button = styled.a`
   font-weight: 900;
   cursor: pointer;
   padding: 10px 15px;
-  height: 28px;
-  background-color: #e21c21;
+  background-color: #34af23;
   transition: all 0.35s ease-in-out;
   border-radius: 30px;
 
@@ -356,10 +355,9 @@ const Products = () => {
 
   return (
     <Wrapper id="services">
-      <h2>ENCONTRE SEU APARELHO</h2>
+      <h2>QUAL O SEU APARELHO?</h2>
       <h3>
-        Selecione seu modelo, confira o valor e <b>fale com nosso consultor</b>{' '}
-        no whatsapp para tirar dúvidas e agendar serviço.
+        Selecione o modelo que você precisa de manutenção, confira o valor e <b>fale com nosso consultor</b> no whatsapp para tirar dúvidas e agendar serviço.
       </h3>
       <Line />
       <ButtonsWrapper>
@@ -419,8 +417,7 @@ const Products = () => {
           MOTOROLA
         </BrandButton>
       </ButtonsWrapper>
-      <PhonesWrapper
-        >
+      <PhonesWrapper>
         {width > 700 && <Circle className="prev"><MdChevronLeft size="44px" style={{ padding: '0 8px'}}/></Circle>}
         {width <= 700 && <MinorCircle className="prev" style={{ margin: '0 0 0 20px' }}><MdChevronLeft size="20px"/></MinorCircle>}
         <Swiper
@@ -450,8 +447,8 @@ const Products = () => {
                     <Price>{p.price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</Price>
                   </Col>
                   <Button id="wppurl" onClick={() => (window.location.href = p.link)}>
-                    <FaWhatsapp size="22px" color="#fff" style={{marginRight: 5}}/>
-                    Fale<br/>conosco
+                    <FaWhatsapp size="22px" color="#fff" style={{margin: '0 5px 3px 0'}}/>
+                    Fale conosco
                   </Button>
                 </Row>
               </Item>

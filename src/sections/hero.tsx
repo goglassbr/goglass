@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import banner1 from '../source/capa-site.webp';
 
 const Wrapper = styled.img`
-  cursor: "pointer";
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;

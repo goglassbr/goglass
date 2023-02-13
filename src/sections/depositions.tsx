@@ -269,7 +269,7 @@ const Depositions = () => {
               <h3>
                 {depositions[activeDeposition].name}
               </h3>
-              <h4>{depositions[activeDeposition].job && depositions[activeDeposition].job} - <a href={depositions[activeDeposition].instalink}>{depositions[activeDeposition].insta}</a></h4>
+              <h4>{depositions[activeDeposition].job && (<span>{depositions[activeDeposition].job} - </span>)}<a href={depositions[activeDeposition].instalink}>{depositions[activeDeposition].insta}</a></h4>
               <h4>{depositions[activeDeposition].text}</h4>
             </Text>
           </DepositionWrapper>
